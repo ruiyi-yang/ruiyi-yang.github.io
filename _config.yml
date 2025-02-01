@@ -24,11 +24,11 @@ author:
   name             : "Ruiyi Yang"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "The University of Hong Kong"
-  location         : "Beijing, China"
+  location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  #googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  email            : "ruiyi_yang@connect.hku.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
