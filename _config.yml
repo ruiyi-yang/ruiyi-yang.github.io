@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
 title                    : "Ruiyi Yang"
 description              : "Economics, Geography, Computational Social Science"
@@ -12,12 +5,12 @@ repository               : "ruiyi-yang/ruiyi-yang.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :   
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification :  
+bing_site_verification   :   
+baidu_site_verification  :  
 
 # Site Author
 author:
@@ -27,9 +20,9 @@ author:
   location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    :  
   email            : "ruiyi_yang@connect.hku.hk"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :   
   uri              :
   bitbucket        :
   codepen          :
@@ -41,17 +34,17 @@ author:
   google_plus      :
   keybase          :
   instagram        : "https://www.instagram.com/gelato_meowmeow/"
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :  
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/rena-ruiyi-yang/"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  dblp             :  
+  orcid            :  
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :  
   steam            :
   tumblr           :
-  twitter          : # "https://x.com/yry_rena"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
