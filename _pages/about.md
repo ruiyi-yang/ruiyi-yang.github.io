@@ -22,6 +22,7 @@ My research interests include Urban Development, Economic Geography, and Social 
 
 
 # Educations 
+- *2025.09 - 2027.06*, M.Phil. in Geography, The University of Hong Kong. 
 - *2021.09 - 2025.06*, Bachelor of Economics, The University of Hong Kong. 
 
 # Honors and Awards
