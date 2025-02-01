@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ruiyi Yang"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/RuiyiY.jpg"
   bio              : "The University of Hong Kong"
   location         : "Hong Kong"
   employer         :
   pubmed           : 
-  #googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "ruiyi_yang@connect.hku.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -40,7 +40,7 @@ author:
   github           : # e.g., "github username"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/gelato_meowmeow/"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
@@ -51,12 +51,13 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "https://x.com/yry_rena"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
+  PhMuseum         : "https://phmuseum.com/projects/twelve-months"
 
 
 # Reading Files
