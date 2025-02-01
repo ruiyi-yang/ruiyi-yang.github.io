@@ -17,8 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interests include Urban Development, Economic Geography, and Social Networks and Interactions.My research interest includes Urban Development, Economics Geography, and Social Network and Interactions. 
-
+My research interests include Urban Development, Economic Geography, and Social Networks and Interactions. 
   
 
 
