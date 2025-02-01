@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ruiyi Yang"
-description              : "Economics, Geography, Social Data Science"
+description              : "Economics, Geography, Computational Social Science"
 repository               : "ruiyi-yang/ruiyi-yang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -43,7 +43,7 @@ author:
   instagram        : "https://www.instagram.com/gelato_meowmeow/"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "https://www.linkedin.com/in/rena-ruiyi-yang/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
