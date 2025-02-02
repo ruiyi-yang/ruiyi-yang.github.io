@@ -67,7 +67,7 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
 
-## Boston
+## Boston, Massachusetts
 {: #boston }
 
 <div class="gallery-grid">
@@ -82,7 +82,7 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
 
-## California
+## Berkeley, California 
 {: #california }
 
 <div class="gallery-grid">
@@ -97,7 +97,23 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
 
-## Dali, Yunnan Province 大理 
+## Cambridge, England
+{: #cambridge }
+
+<div class="gallery-grid">
+  {% for image in site.static_files %}
+    {% if image.path contains "/images/gallery/Cambridge" and image.extname == ".jpg" %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="Cambridge Image" style="width:100%; padding:5px;">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+---
+
+## Dali, Yunnan 大理 
 {: #dali }
 
 <div class="gallery-grid">
@@ -112,7 +128,7 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
 
-## Fuzhou, Fujian Province 福州 
+## Fuzhou, Fujian 福州 
 {: #fuzhou }
 
 <div class="gallery-grid">
@@ -124,6 +140,7 @@ My research interests include Development Economics, Social Networks and Interac
     {% endif %}
   {% endfor %}
 </div>
+
 
 ---
 
@@ -154,3 +171,19 @@ My research interests include Development Economics, Social Networks and Interac
     {% endif %}
   {% endfor %}
 </div>
+
+---
+
+## Gelato
+{: #gelato }
+
+<div class="gallery-grid">
+  {% for image in site.static_files %}
+    {% if image.path contains "/images/gallery/Gelato" and image.extname == ".jpg" %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="Gelato Image" style="width:100%; padding:5px;">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
