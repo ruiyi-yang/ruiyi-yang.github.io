@@ -28,7 +28,7 @@ My research interests include Development Economics, Social Networks and Interac
   - Student Ambassador, Asia Global Institute  (2022-2023) 
 
 # Projects
- 
+ {: #projects }
 
 ---
 
