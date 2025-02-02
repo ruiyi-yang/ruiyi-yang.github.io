@@ -89,13 +89,13 @@ My research interests include Development Economics, Social Networks and Interac
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
-    <li><a href="#boston">Boston, Massachusetts</a></li>
-    <li><a href="#california">Berkeley, California</a></li>
-    <li><a href="#cambridge">Cambridge, England</a></li>
-    <li><a href="#dali">Dali, Yunnan</a></li>
-    <li><a href="#fuzhou">Fuzhou, Fujian</a></li>
+    <li><a href="#boston">Boston</a></li>
+    <li><a href="#california">Berkeley</a></li>
+    <li><a href="#cambridge">Cambridge</a></li>
+    <li><a href="#dali">Dali</a></li>
+    <li><a href="#fuzhou">Fuzhou</a></li>
     <li><a href="#hongkong">Hong Kong</a></li>
-    <li><a href="#ny">NYC, New York State</a></li>
+    <li><a href="#ny">NYC</a></li>
     <li><a href="#gelato">Gelato</a></li>
   </ul>
 </div>
