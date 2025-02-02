@@ -26,7 +26,7 @@ My research interests include Development Economics, Social Networks and Interac
   - HKU Worldwide Student Exchange Scholarships, C.V. Starr Scholarship, Dean’s Honours Lists
   - Student Ambassador, Asia Global Institute  (2022-2023) 
 
-## Non-Degree International Studies
+## International Studies
 - *2024.06 - 2024.08*, Johns Hopkins University.
 - *2023.09 - 2023.12*, Tufts University. 
 - *2022.07 - 2022.08*, Pembroke College, University of Cambridge. 
