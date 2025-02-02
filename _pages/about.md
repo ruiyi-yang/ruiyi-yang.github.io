@@ -128,13 +128,13 @@ My research interests include Development Economics, Social Networks and Interac
 
   // Custom locations (latitude, longitude, name)
   var locations = [
-    [39.9042, 116.4074, "Beijing, China"],
+    [39.9042, 116.4074, "Beijing"],
     [42.3601, -71.0589, "Boston, Massachusetts"],
     [37.8715, -122.2730, "Berkeley, California"],
     [22.3964, 114.1095, "Hong Kong"],
-    [32.5468, -116.9831, "Cambridge, UK"],
-    [25.0422, 102.7064, "Dali, Yunnan Province"],
-    [26.0745, 119.2965, "Fuzhou, Fujian Province"],
+    [52.2053, 0.1218, "Cambridge, England"],
+    [25.5842, 100.2257, "Dali, Yunnan"],
+    [26.0745, 119.2965, "Fuzhou, Fujian"],
     [40.7128, -74.0060, "New York City"]
   ];
 
