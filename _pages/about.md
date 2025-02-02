@@ -33,11 +33,12 @@ My research interests include Development Economics, Social Networks and Interac
 - *2022.07 - 2022.08*, Pembroke College, University of Cambridge. 
 
 
+
+
 # Projects
  {: #projects }
 
----
-
+ 
 # Gallery
 {: #gallery }
 
@@ -55,7 +56,65 @@ My research interests include Development Economics, Social Networks and Interac
     border: 1px solid #ddd;
   }
 </style>
- 
+
+
+
+
+# Gallery
+{: #gallery }
+
+<style>
+  .gallery-menu {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  .gallery-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .gallery-menu li {
+    display: inline;
+  }
+  .gallery-menu a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+  .gallery-menu a:hover {
+    text-decoration: underline;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+</style>
+
+## Menu
+<div class="gallery-menu">
+  <ul>
+    <li><a href="#beijing">Beijing</a></li>
+    <li><a href="#boston">Boston, Massachusetts</a></li>
+    <li><a href="#california">California</a></li>
+    <li><a href="#dali">Dali, Yunnan Province</a></li>
+    <li><a href="#fuzhou">Fuzhou, Fujian Province</a></li>
+    <li><a href="#hongkong">Hong Kong</a></li>
+    <li><a href="#ny">New York</a></li>
+  </ul>
+</div>
 
 ## Beijing
 {: #beijing }
