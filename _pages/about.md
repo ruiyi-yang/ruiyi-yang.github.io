@@ -111,22 +111,35 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
  
+
+## Map Highlighting Locations
 <div id="map"></div>
 
 <!-- Leaflet.js -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
+<style>
+  #map {
+    height: 500px; /* Make sure the map container has height */
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+</style>
+
 <script>
-  var map = L.map('map').setView([20.0, 0.0], 2); // Center on the world
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = L.map('map').setView([20.0, 0.0], 2); // Center on the world
 
-  // Change the tile layer for the map theme (try different URLs below)
-  L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://stamen.com/">Stamen Design</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
+    // Tile layer with Stamen Watercolor
+    L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://stamen.com/">Stamen Design</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-  // Custom locations (latitude, longitude, name)
+    // Custom locations (latitude, longitude, name)
   var locations = [
     [39.9042, 116.4074, "Beijing"],
     [42.3601, -71.0589, "Boston, Massachusetts"],
@@ -138,12 +151,16 @@ My research interests include Development Economics, Social Networks and Interac
     [40.7128, -74.0060, "New York City"]
   ];
 
-  // Add markers to map
-  locations.forEach(function(loc) {
-    L.marker([loc[0], loc[1]]).addTo(map).bindPopup("<b>" + loc[2] + "</b>");
+    // Add markers to map
+    locations.forEach(function (loc) {
+      L.marker([loc[0], loc[1]]).addTo(map).bindPopup("<b>" + loc[2] + "</b>");
+    });
   });
 </script>
 
+
+ 
+ 
 ---
 
 
@@ -272,7 +289,7 @@ My research interests include Development Economics, Social Networks and Interac
 ## Gelato
 {: #gelato }
  
-Meet Gelato, my lovable, short-legged Napoleon cat born on September 4, 2023. She joined my life on my 22nd birthday, February 6, 2024, and has been my little bundle of joy ever since. You can catch more of her adorable adventures on Instagram [@gelato_meowmeow](https://www.instagram.com/gelato_meowmeow).
+Meet Gelato, my short-legged Napoleon cat born on September 4, 2023. She joined my life on my 22nd birthday, February 6, 2024, and has been my little bundle of joy ever since. You can catch more of her adorable adventures on Instagram [@gelato_meowmeow](https://www.instagram.com/gelato_meowmeow).
 
  
 
