@@ -37,6 +37,22 @@ My research interests include Urban Development, Economic Geography, and Social 
 # Gallery
 {: #gallery }
 
+<style>
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+</style>
+
+---
 
 ## Beijing
 {: #beijing }
