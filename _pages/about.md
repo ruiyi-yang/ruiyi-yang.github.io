@@ -85,7 +85,7 @@ My research interests include Development Economics, Social Networks and Interac
   }
 </style>
 
-## Menu
+ 
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
