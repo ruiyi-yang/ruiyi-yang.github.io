@@ -83,9 +83,16 @@ My research interests include Development Economics, Social Networks and Interac
     border-radius: 5px;
     border: 1px solid #ddd;
   }
+
+  #map {
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
 </style>
 
- 
+
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
@@ -99,6 +106,46 @@ My research interests include Development Economics, Social Networks and Interac
     <li><a href="#gelato">Gelato</a></li>
   </ul>
 </div>
+
+
+## Map Highlighting Locations
+<div id="map"></div>
+
+---
+
+<!-- Leaflet.js -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+<script>
+  var map = L.map('map').setView([20.0, 0.0], 2); // Center on the world
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Custom locations (latitude, longitude, name)
+  var locations = [
+    [39.9042, 116.4074, "Beijing, China"],
+    [42.3601, -71.0589, "Boston, Massachusetts"],
+    [37.8715, -122.2730, "Berkeley, California"],
+    [22.3964, 114.1095, "Hong Kong"],
+    [32.5468, -116.9831, "Cambridge, UK"],
+    [25.0422, 102.7064, "Dali, Yunnan Province"],
+    [26.0745, 119.2965, "Fuzhou, Fujian Province"],
+    [40.7128, -74.0060, "New York City"]
+  ];
+
+  // Add markers to map
+  locations.forEach(function(loc) {
+    L.marker([loc[0], loc[1]]).addTo(map).bindPopup("<b>" + loc[2] + "</b>");
+  });
+</script>
+
+---
+
 
 ## Beijing
 {: #beijing }
