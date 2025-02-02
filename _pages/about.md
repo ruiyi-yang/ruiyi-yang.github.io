@@ -17,18 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interests include Urban Development, Economic Geography, and Social Networks and Interactions. 
+My research interests include Development Economics, Social Networks and Interactions, and Economic Geography. 
   
 
 
 # Educations 
 - *2025.09 - 2027.06*, M.Phil. in Geography, The University of Hong Kong. 
 - *2021.09 - 2025.06*, Bachelor of Economics, The University of Hong Kong. 
+  - HKU Worldwide Student Exchange Scholarships, C.V. Starr Scholarship, Dean’s Honours Lists
 
-# Honors and Awards
-- HKU Worldwide Student Exchange Scholarships
-- C.V. Starr Scholarship
-- Dean’s Honours Lists
+
 
  
 
