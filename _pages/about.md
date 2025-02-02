@@ -95,7 +95,7 @@ My research interests include Development Economics, Social Networks and Interac
     <li><a href="#dali">Dali, Yunnan</a></li>
     <li><a href="#fuzhou">Fuzhou, Fujian</a></li>
     <li><a href="#hongkong">Hong Kong</a></li>
-    <li><a href="#ny">New York</a></li>
+    <li><a href="#ny">NYC, New York State</a></li>
     <li><a href="#gelato">Gelato</a></li>
   </ul>
 </div>
@@ -207,7 +207,7 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
 
-## New York
+## NYC, New York State
 {: #ny }
 
 <div class="gallery-grid">
