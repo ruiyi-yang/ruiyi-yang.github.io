@@ -29,6 +29,7 @@ My research interests include Development Economics, Social Networks and Interac
 ## International Studies
 - *2024.06 - 2024.08*, Johns Hopkins University.
 - *2023.09 - 2023.12*, Tufts University. 
+- *2023.02 - 2023.05*, University of California, Berkeley,. 
 - *2022.07 - 2022.08*, Pembroke College, University of Cambridge. 
 
 
