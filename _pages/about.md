@@ -93,6 +93,8 @@ My research interests include Development Economics, Social Networks and Interac
 </style>
 
 
+---
+
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
@@ -107,11 +109,9 @@ My research interests include Development Economics, Social Networks and Interac
   </ul>
 </div>
 
-
-## Map Highlighting Locations
-<div id="map"></div>
-
 ---
+ 
+<div id="map"></div>
 
 <!-- Leaflet.js -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -120,10 +120,10 @@ My research interests include Development Economics, Social Networks and Interac
 <script>
   var map = L.map('map').setView([20.0, 0.0], 2); // Center on the world
 
-  // Add OpenStreetMap tiles
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  // Change the tile layer for the map theme (try different URLs below)
+  L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
     maxZoom: 18,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://stamen.com/">Stamen Design</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
   // Custom locations (latitude, longitude, name)
