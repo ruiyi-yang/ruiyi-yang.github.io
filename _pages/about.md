@@ -111,8 +111,7 @@ My research interests include Development Economics, Social Networks and Interac
 
 ---
  
-
-## Map Highlighting Locations
+ 
 <div id="map"></div>
 
 <!-- Leaflet.js -->
