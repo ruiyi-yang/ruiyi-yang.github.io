@@ -110,8 +110,7 @@ My research interests include Development Economics, Social Networks and Interac
 </div>
 
 ---
- 
- 
+  
 <div id="map"></div>
 
 <!-- Leaflet.js -->
@@ -120,7 +119,7 @@ My research interests include Development Economics, Social Networks and Interac
 
 <style>
   #map {
-    height: 500px; /* Make sure the map container has height */
+    height: 500px;
     width: 100%;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -132,23 +131,23 @@ My research interests include Development Economics, Social Networks and Interac
   document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('map').setView([20.0, 0.0], 2); // Center on the world
 
-    // Tile layer with Stamen Watercolor
-    L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
+    // OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
-      attribution: '&copy; <a href="https://stamen.com/">Stamen Design</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
     // Custom locations (latitude, longitude, name)
-  var locations = [
-    [39.9042, 116.4074, "Beijing"],
-    [42.3601, -71.0589, "Boston, Massachusetts"],
-    [37.8715, -122.2730, "Berkeley, California"],
-    [22.3964, 114.1095, "Hong Kong"],
-    [52.2053, 0.1218, "Cambridge, England"],
-    [25.5842, 100.2257, "Dali, Yunnan"],
-    [26.0745, 119.2965, "Fuzhou, Fujian"],
-    [40.7128, -74.0060, "New York City"]
-  ];
+    var locations = [
+      [39.9042, 116.4074, "Beijing"],
+      [42.3601, -71.0589, "Boston, Massachusetts"],
+      [37.8715, -122.2730, "Berkeley, California"],
+      [22.3964, 114.1095, "Hong Kong"],
+      [52.2053, 0.1218, "Cambridge, England"],
+      [25.5842, 100.2257, "Dali, Yunnan"],
+      [26.0745, 119.2965, "Fuzhou, Fujian"],
+      [40.7128, -74.0060, "New York City"]
+    ];
 
     // Add markers to map
     locations.forEach(function (loc) {
@@ -157,11 +156,6 @@ My research interests include Development Economics, Social Networks and Interac
   });
 </script>
 
-
- 
-
-
- 
  
 ---
 
