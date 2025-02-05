@@ -21,7 +21,6 @@ My research interests include Development Economics, Social Networks and Interac
   
  
 ## Degree Educations 
-- *2025.09 - 2027.06*, M.Phil. in Geography, The University of Hong Kong. 
 - *2021.09 - 2025.06*, Bachelor of Economics, The University of Hong Kong. 
   - HKU Worldwide Student Exchange Scholarships, C.V. Starr Scholarship, Dean’s Honours Lists
   - Student Ambassador, Asia Global Institute  (2022-2023) 
