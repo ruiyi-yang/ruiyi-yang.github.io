@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interests include Development Economics, Social Networks and Interactions, and Economic Geography. 
+My research interests include Development Economics, Social Networks, and Urbanization. 
   
  
 ## Degree Educations  
