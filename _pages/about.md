@@ -94,16 +94,16 @@ My research interests revolve around **Development Economics**, **Social Network
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
-    <li><a href="#newzealand">New Zealand</a></li>
     <li><a href="#boston">Boston</a></li>
     <li><a href="#california">Berkeley</a></li>
     <li><a href="#cambridge">Cambridge</a></li>
     <li><a href="#dali">Dali</a></li>
     <li><a href="#fuzhou">Fuzhou</a></li>
     <li><a href="#hongkong">Hong Kong</a></li>
-    <li><a href="#ny">NYC</a></li>
     <li><a href="#samui">Samui</a></li>
-    <li><a href="#gelato">Gelato</a></li>
+    <li><a href="#ny">NYC</a></li>
+    <li><a href="#newzealand">New Zealand</a></li>
+    <li><a href="#gelato">Gelato 🐈</a></li>
   </ul>
 </div>
  
@@ -168,21 +168,6 @@ My research interests revolve around **Development Economics**, **Social Network
     {% if image.path contains "/images/gallery/Beijing" and image.extname == ".jpg" %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="Beijing Image" style="width:100%; padding:5px;">
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
----
-
-## New Zealand
-{: #newzealand }
-
-<div class="gallery-grid">
-  {% for image in site.static_files %}
-    {% if image.path contains "/images/gallery/NewZealand" and image.extname == ".jpg" %}
-      <div class="gallery-item">
-        <img src="{{ image.path | relative_url }}" alt="NewZealand Image" style="width:100%; padding:5px;">
       </div>
     {% endif %}
   {% endfor %}
@@ -279,6 +264,20 @@ My research interests revolve around **Development Economics**, **Social Network
     {% endif %}
   {% endfor %}
 </div>
+---
+
+## Ko Samui District, Surat Thani, Thailand
+{: #samui }
+
+<div class="gallery-grid">
+  {% for image in site.static_files %}
+    {% if image.path contains "/images/gallery/Samui" and image.extname == ".jpg" %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="samui Image" style="width:100%; padding:5px;">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
 ---
 
@@ -297,14 +296,14 @@ My research interests revolve around **Development Economics**, **Social Network
 
 ---
 
-## Ko Samui District, Surat Thani, Thailand
-{: #samui }
+## New Zealand
+{: #newzealand }
 
 <div class="gallery-grid">
   {% for image in site.static_files %}
-    {% if image.path contains "/images/gallery/Samui" and image.extname == ".jpg" %}
+    {% if image.path contains "/images/gallery/NewZealand" and image.extname == ".jpg" %}
       <div class="gallery-item">
-        <img src="{{ image.path | relative_url }}" alt="samui Image" style="width:100%; padding:5px;">
+        <img src="{{ image.path | relative_url }}" alt="NewZealand Image" style="width:100%; padding:5px;">
       </div>
     {% endif %}
   {% endfor %}
