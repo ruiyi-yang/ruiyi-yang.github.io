@@ -206,7 +206,7 @@ My research interests revolve around **Development Economics**, **Social Network
 
 <div class="gallery-grid">
   {% for image in site.static_files %}
-    {% if image.path contains "/images/gallery/Cambridge" and image.extname == ".jpg" %}
+    {% if image.path contains "/images/gallery/Cambridge" and image.extname == ".JPG" %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="Cambridge Image" style="width:100%; padding:5px;">
       </div>
