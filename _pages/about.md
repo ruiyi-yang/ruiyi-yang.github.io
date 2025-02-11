@@ -138,7 +138,7 @@ My research interests revolve around **Development Economics**, **Social Network
     // Custom locations (latitude, longitude, name)
     var locations = [
       [39.9042, 116.4074, "Beijing"],
-      [40.9006, 174.8860, "New Zealand"],
+      [-40.9006, 174.8860, "New Zealand"],
       [42.3601, -71.0589, "Boston, Massachusetts"],
       [37.8715, -122.2730, "Berkeley, California"],
       [22.3964, 114.1095, "Hong Kong"],
