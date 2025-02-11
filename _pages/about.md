@@ -28,9 +28,6 @@ My research interests revolve around **Development Economics**, **Social Network
 - *2023.02 - 2023.05*, University of California, Berkeley. 
 - *2022.07 - 2022.08*, Pembroke College, University of Cambridge. 
 
-## Contact
-{: #contact }
-
 
 
 # Projects
@@ -41,9 +38,7 @@ My research interests revolve around **Development Economics**, **Social Network
 
 
 
-Phone: +852 4681 6706
 
-Email: ruiyi_yang@connect.hku.hk
 
 
 # Gallery
