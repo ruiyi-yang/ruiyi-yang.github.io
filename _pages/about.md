@@ -94,6 +94,7 @@ My research interests revolve around **Development Economics**, **Social Network
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
+    <li><a href="#newzealand">NewZealand</a></li>
     <li><a href="#boston">Boston</a></li>
     <li><a href="#california">Berkeley</a></li>
     <li><a href="#cambridge">Cambridge</a></li>
@@ -101,10 +102,11 @@ My research interests revolve around **Development Economics**, **Social Network
     <li><a href="#fuzhou">Fuzhou</a></li>
     <li><a href="#hongkong">Hong Kong</a></li>
     <li><a href="#ny">NYC</a></li>
+    <li><a href="#samui">Samui</a></li>
     <li><a href="#gelato">Gelato</a></li>
   </ul>
 </div>
-
+ 
 ---
   
 <div id="map"></div>
@@ -136,13 +138,15 @@ My research interests revolve around **Development Economics**, **Social Network
     // Custom locations (latitude, longitude, name)
     var locations = [
       [39.9042, 116.4074, "Beijing"],
+      [40.9006, 174.8860, "New Zealand"],
       [42.3601, -71.0589, "Boston, Massachusetts"],
       [37.8715, -122.2730, "Berkeley, California"],
       [22.3964, 114.1095, "Hong Kong"],
       [52.2053, 0.1218, "Cambridge, England"],
       [25.5842, 100.2257, "Dali, Yunnan"],
       [26.0745, 119.2965, "Fuzhou, Fujian"],
-      [40.7128, -74.0060, "New York City"]
+      [40.7128, -74.0060, "New York City"], 
+      [9.5120, 100.0136, "Ko Samui, Surat Thani"]
     ];
 
     // Add markers to map
@@ -164,6 +168,21 @@ My research interests revolve around **Development Economics**, **Social Network
     {% if image.path contains "/images/gallery/Beijing" and image.extname == ".jpg" %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="Beijing Image" style="width:100%; padding:5px;">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+---
+
+## New Zealand
+{: #newzealand }
+
+<div class="gallery-grid">
+  {% for image in site.static_files %}
+    {% if image.path contains "/images/gallery/NewZealand" and image.extname == ".jpg" %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="NewZealand Image" style="width:100%; padding:5px;">
       </div>
     {% endif %}
   {% endfor %}
@@ -271,6 +290,21 @@ My research interests revolve around **Development Economics**, **Social Network
     {% if image.path contains "/images/gallery/NY" and image.extname == ".jpg" %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="NY Image" style="width:100%; padding:5px;">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+---
+
+## Ko Samui District, Surat Thani, Thailand
+{: #samui }
+
+<div class="gallery-grid">
+  {% for image in site.static_files %}
+    {% if image.path contains "/images/gallery/Samui" and image.extname == ".jpg" %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="samui Image" style="width:100%; padding:5px;">
       </div>
     {% endif %}
   {% endfor %}
