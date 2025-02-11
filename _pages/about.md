@@ -94,7 +94,7 @@ My research interests revolve around **Development Economics**, **Social Network
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
-    <li><a href="#newzealand">NewZealand</a></li>
+    <li><a href="#newzealand">New Zealand</a></li>
     <li><a href="#boston">Boston</a></li>
     <li><a href="#california">Berkeley</a></li>
     <li><a href="#cambridge">Cambridge</a></li>
