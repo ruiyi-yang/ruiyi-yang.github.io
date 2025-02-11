@@ -281,7 +281,7 @@ My research interests revolve around **Development Economics**, **Social Network
 ## Gelato
 {: #gelato }
  
-Meet Gelato, my short-legged Napoleon cat born on September 4, 2023. She joined my life on my 22nd birthday, February 6, 2024, and has been my little bundle of joy ever since. You can catch more of her adorable adventures on Instagram [@gelato_meowmeow](https://www.instagram.com/gelato_meowmeow).
+Meet Gelato (雪糕), my short-legged Napoleon cat born on September 4, 2023. She joined my life on my 22nd birthday and has been my little bundle of joy ever since. You can catch more of her adorable adventures on her Instagram account [@gelato_meowmeow](https://www.instagram.com/gelato_meowmeow).
 
  
 
