@@ -18,6 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 My research interests revolve around **Development Economics**, **Social Networks and Interactions**, and **Intergenerational Governance**, with a focus on understanding how economic growth intersects with social dynamics to shape societal progress, sustainable development, and urbanization.
+
+My first name is pronounced rway-ee.
+
  
 ## Degree Educations  
 - *2021.09 - 2025.06*, Bachelor of Economics, The University of Hong Kong.  
