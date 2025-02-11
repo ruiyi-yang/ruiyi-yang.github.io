@@ -37,6 +37,12 @@ My research interests revolve around **Development Economics**, **Social Network
   
 
 
+# Contact
+{: #contact }
+
+Phone: +852 4681 6706
+Email: ruiyi_yang@connect.hku.hk
+
 
 # Gallery
 {: #gallery }
@@ -327,4 +333,6 @@ Meet Gelato (雪糕), my short-legged Napoleon cat born on September 4, 2023. Sh
     {% endif %}
   {% endfor %}
 </div>
+
+
 
