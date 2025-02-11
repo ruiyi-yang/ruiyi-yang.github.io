@@ -94,8 +94,8 @@ My research interests revolve around **Development Economics**, **Social Network
 <div class="gallery-menu">
   <ul>
     <li><a href="#beijing">Beijing</a></li>
-    <li><a href="#boston">Boston</a></li>
     <li><a href="#california">Berkeley</a></li>
+    <li><a href="#boston">Boston</a></li>
     <li><a href="#cambridge">Cambridge</a></li>
     <li><a href="#dali">Dali</a></li>
     <li><a href="#fuzhou">Fuzhou</a></li>
@@ -172,6 +172,21 @@ My research interests revolve around **Development Economics**, **Social Network
     {% endif %}
   {% endfor %}
 </div>
+ 
+---
+
+## Berkeley, California 
+{: #california }
+
+<div class="gallery-grid">
+  {% for image in site.static_files %}
+    {% if image.path contains "/images/gallery/California" and image.extname == ".jpg" %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="California Image" style="width:100%; padding:5px;">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
 ---
 
@@ -183,21 +198,6 @@ My research interests revolve around **Development Economics**, **Social Network
     {% if image.path contains "/images/gallery/Boston" and image.extname == ".jpg" %}
       <div class="gallery-item">
         <img src="{{ image.path | relative_url }}" alt="Boston Image" style="width:100%; padding:5px;">
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
----
-
-## Berkeley, California 
-{: #california }
-
-<div class="gallery-grid">
-  {% for image in site.static_files %}
-    {% if image.path contains "/images/gallery/California" and image.extname == ".jpg" %}
-      <div class="gallery-item">
-        <img src="{{ image.path | relative_url }}" alt="California Image" style="width:100%; padding:5px;">
       </div>
     {% endif %}
   {% endfor %}
