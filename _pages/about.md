@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interests revolve around **Development Economics**, **Social Networks and Interactions**, and **Intergenerational Governance**, with a focus on understanding economic growth intersects with social and urban dynamics to shape societal progress, sustainable development, and the long-term consequences of policies and actions.
+My research interests revolve around **Development Economics**, **Social Networks and Interactions**, and **Intergenerational Governance**, with a focus on how economic growth intersects with social and urban dynamics to shape societal progress, sustainable development, and the long-term consequences of policies and actions.
 
 My first name is pronounced rway-ee.
 
