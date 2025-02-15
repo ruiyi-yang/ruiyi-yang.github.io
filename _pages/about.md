@@ -369,7 +369,7 @@ In this reading group, we will explore how literature captures the tension betwe
 
 ## Reading Group | Global Prioritization and Effective Altruism
 
-This reading group explores global prioritization—the systematic identification and evaluation of the world’s most pressing problems—through the lens of Effective Altruism. Using foundational and applied research, we will investigate how individuals, philanthropists, and policymakers can allocate resources to maximize impact.
+This reading group explores global prioritization—the systematic identification and evaluation of the world’s most pressing problems—through the lens of Effective Altruism. Using foundational and applied research, we will investigate how individuals, philanthropists, and policymakers can allocate resources to maximize social impact.
 
 ##### Session 1: Introduction to Global Prioritization and Effective Altruism
 
