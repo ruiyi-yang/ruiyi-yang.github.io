@@ -339,7 +339,7 @@ Meet Gelato (雪糕), my short-legged Napoleon cat born on September 4, 2023. Sh
 
 
 
-# Reading Group
+# Reading  
 {: #reading }
 
 ## Reading Group | The Weight of the World: Fate, Marginality, and the Search for Meaning
