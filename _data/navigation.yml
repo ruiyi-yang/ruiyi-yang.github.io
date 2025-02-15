@@ -9,3 +9,5 @@ main:
   - title: "Gallery"
     url: "/#gallery"
  
+  - title: "Reading"
+    url: "/#reading"
