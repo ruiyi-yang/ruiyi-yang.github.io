@@ -335,3 +335,84 @@ Meet Gelato (雪糕), my short-legged Napoleon cat born on September 4, 2023. Sh
 
 
 
+
+
+
+
+# Reading Group
+{: #reading }
+
+## Reading Group | The Weight of the World: Fate, Marginality, and the Search for Meaning
+
+*We are the entropy of the world, forever bound by the gravity of our being.*
+
+In this reading group, we will explore how literature captures the tension between individual agency and the vast, inescapable forces of history and society. Through novels, poetry, philosophy, and social criticism, we will examine the weight of existence, the marginalization of certain voices, and our place in an ever-shifting world. By engaging with diverse perspectives, we will reflect on how stories—both real and imagined—shape our understanding of fate, identity, and the struggle for meaning.
+
+##### Week 1: Entropy, the Everyday, and the Marginalized Figures of History
+
+##### Week 2: The Weight of the Past and the Fiction of Reality
+
+##### **Week 3: Gender and Power—Tangled Structures of the Patriarchy**
+
+##### Week 4: The Masses, the Individual, and the Struggle for Meaning
+
+##### Week 5: Ethics, Altruism, and Repairing the World
+
+##### Week 6: Mythology, Artificial Beings, and the Fear of Creation
+
+##### Week 7: The Education of the Self—Art, Teaching, and the Search for Meaning
+
+##### Week 8: Facing Extinction—Humanity, Nature, and the Future
+
+
+---
+
+## Reading Group | Global Prioritization and Effective Altruism
+
+This reading group explores global prioritization—the systematic identification and evaluation of the world’s most pressing problems—through the lens of Effective Altruism (EA). Using foundational and applied research, we will investigate how individuals, philanthropists, and policymakers can allocate resources to maximize impact.
+
+##### Session 1: Introduction to Global Prioritization and Effective Altruism
+
+##### Session 2: Strategic Issues in Altruistic Decision-Making
+
+##### Session 3: Forecasting and Long-Term Impact
+
+##### Session 4: Welfare and Decision Procedures in Prioritization
+
+##### Session 5: Evidence, Cost-Effectiveness, and Marginal Impact
+
+##### Session 6: Catastrophic Risks and Global Prioritization
+
+##### Session 7: AI, Technological Change, and Global Prioritization
+
+##### Session 8: Population, Inequality, and Intergenerational Governance
+
+##### Session 9: Policy-Making for Long-Term Global Prioritization
+
+##### Session 10: Critiques and Open Questions in Global Prioritization
+
+
+---
+
+## Reading Group | **High-Impact Social Innovation: Charity Entrepreneurship & Effective Altruism**
+
+This reading group explores the intersection of charity entrepreneurship, social innovation, and Effective Altruism (EA)—examining how evidence-based strategies can create and scale high-impact organizations. Participants will engage with key ideas, frameworks, and case studies to understand how to apply rigorous reasoning to solving global problems.
+
+##### **Session 1: Introduction to Effective Altruism & Social Innovation**
+
+##### **Session 2: Charity Entrepreneurship – A Framework for Impact**
+
+##### **Session 3: Cause Prioritization & Problem Selection**
+
+##### **Session 4: Innovation in Global Health & Development**
+
+##### **Session 5: Longtermism & Social Innovation for Future Generations**
+
+##### **Session 6: Effective Giving & Venture Philanthropy**
+
+##### **Session 7: Scaling Social Ventures & Measuring Impact**
+
+##### Session 8: Critiques of EA & The Future of Social Innovation
+
+
+
