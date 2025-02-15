@@ -369,7 +369,7 @@ In this reading group, we will explore how literature captures the tension betwe
 
 ## Reading Group | Global Prioritization and Effective Altruism
 
-This reading group explores global prioritization—the systematic identification and evaluation of the world’s most pressing problems—through the lens of Effective Altruism (EA). Using foundational and applied research, we will investigate how individuals, philanthropists, and policymakers can allocate resources to maximize impact.
+This reading group explores global prioritization—the systematic identification and evaluation of the world’s most pressing problems—through the lens of Effective Altruism. Using foundational and applied research, we will investigate how individuals, philanthropists, and policymakers can allocate resources to maximize impact.
 
 ##### Session 1: Introduction to Global Prioritization and Effective Altruism
 
@@ -396,7 +396,7 @@ This reading group explores global prioritization—the systematic identificatio
 
 ## Reading Group | **High-Impact Social Innovation: Charity Entrepreneurship & Effective Altruism**
 
-This reading group explores the intersection of charity entrepreneurship, social innovation, and Effective Altruism (EA)—examining how evidence-based strategies can create and scale high-impact organizations. Participants will engage with key ideas, frameworks, and case studies to understand how to apply rigorous reasoning to solving global problems.
+This reading group explores the intersection of charity entrepreneurship, social innovation, and Effective Altruism—examining how evidence-based strategies can create and scale high-impact organizations. Participants will engage with key ideas, frameworks, and case studies to understand how to apply rigorous reasoning to solving global problems.
 
 ##### **Session 1: Introduction to Effective Altruism & Social Innovation**
 
