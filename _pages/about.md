@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interests revolve around **Development Economics**, **Social Networks and Interactions**, and **Intergenerational Governance**, with a focus on how economic growth and policy interventions shape long-term social and spatial transformations while fostering sustainable development. I am also interested in understanding how social structures, institutional mechanisms, and urban policies influence mobility and the welfare of future generations.
+My research interests revolve around **Development Economics**, **Social Networks and Interactions**, and **Intergenerational Governance**, with a focus on how economic growth and policy interventions shape long-term social and spatial transformations. I am also interested in understanding how social structures and institutional mechanisms influence mobility and the welfare of future generations.
  
 My first name is pronounced rway-ee.
 
