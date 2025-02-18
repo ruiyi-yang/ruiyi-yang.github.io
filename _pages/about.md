@@ -340,31 +340,7 @@ Meet Gelato (雪糕), my short-legged Napoleon cat born on September 4, 2023. Sh
 
 # Reading  
 {: #reading }
-
-## Reading Group | The Weight of the World: Fate, Marginality, and the Search for Meaning
-
-*We are the entropy of the world, forever bound by the gravity of our being.*
-
-In this reading group, we will explore how literature captures the tension between individual agency and the vast, inescapable forces of history and society. Through novels, poetry, philosophy, and social criticism, we will examine the weight of existence, the marginalization of certain voices, and our place in an ever-shifting world. By engaging with diverse perspectives, we will reflect on how stories—both real and imagined—shape our understanding of fate, identity, and the struggle for meaning.
-
-##### Week 1: Entropy, the Everyday, and the Marginalized Figures of History
-
-##### Week 2: The Weight of the Past and the Fiction of Reality
-
-##### **Week 3: Gender and Power—Tangled Structures of the Patriarchy**
-
-##### Week 4: The Masses, the Individual, and the Struggle for Meaning
-
-##### Week 5: Ethics, Altruism, and Repairing the World
-
-##### Week 6: Mythology, Artificial Beings, and the Fear of Creation
-
-##### Week 7: The Education of the Self—Art, Teaching, and the Search for Meaning
-
-##### Week 8: Facing Extinction—Humanity, Nature, and the Future
-
-
----
+ 
 
 ## Reading Group | Global Prioritization and Effective Altruism
 
@@ -414,4 +390,27 @@ This reading group explores the intersection of charity entrepreneurship, social
 ##### Session 8: Critiques of EA & The Future of Social Innovation
 
 
+---
+
+## Reading Group | The Weight of the World: Fate, Marginality, and the Search for Meaning
+
+*We are the entropy of the world, forever bound by the gravity of our being.*
+
+In this reading group, we will explore how literature captures the tension between individual agency and the vast, inescapable forces of history and society. Through novels, poetry, philosophy, and social criticism, we will examine the weight of existence, the marginalization of certain voices, and our place in an ever-shifting world. By engaging with diverse perspectives, we will reflect on how stories—both real and imagined—shape our understanding of fate, identity, and the struggle for meaning.
+
+##### Week 1: Entropy, the Everyday, and the Marginalized Figures of History
+
+##### Week 2: The Weight of the Past and the Fiction of Reality
+
+##### **Week 3: Gender and Power—Tangled Structures of the Patriarchy**
+
+##### Week 4: The Masses, the Individual, and the Struggle for Meaning
+
+##### Week 5: Ethics, Altruism, and Repairing the World
+
+##### Week 6: Mythology, Artificial Beings, and the Fear of Creation
+
+##### Week 7: The Education of the Self—Art, Teaching, and the Search for Meaning
+
+##### Week 8: Facing Extinction—Humanity, Nature, and the Future
 
