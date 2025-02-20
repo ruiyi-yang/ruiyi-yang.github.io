@@ -95,6 +95,15 @@ My first name is pronounced rway-ee.
 </style>
 
  
+All the film photos in this gallery were taken with my **Canon Rebel 2000 EOS 35mm**, a camera that has been with me for years, traveling across the U.S. and Hong Kong—from California to NYC, and everywhere in between. Along the way, I’ve experimented with different films, each with its own unique character.
+
+I often shoot with **Kodak UltraMax 400**, a super versatile film with fine grain, great dynamic range, and a slight bias toward blues—perfect for almost any lighting condition, even indoors with flash. **Kodak Portra 160 and 400** are my go-to for portraits, thanks to their natural skin tones, soft grain, and incredible latitude. **Kodak Gold 200**, with its warm, golden hues, looks great in bright daylight but tends to lean heavily yellow in low light.
+
+For a slightly different look, I also use **Fuji C200**, which adapts beautifully to different lighting—crisp and vibrant in sunlight, with a moodier, vintage feel in the shadows. Its lower ISO sibling, **Fuji C100**, has even finer grain and a softer, more pastel-like color palette. **Fuji X-Tra 400** is another favorite, offering rich colors, good contrast, and slightly redder skin tones, making it a great choice for portraits and everyday shooting.
+
+Lately, I’ve also been experimenting with **Kodak Vision3 5207 and 5203**, cinematic films that deliver deep, rich colors and a signature movie-like look. 5207 works well in a variety of lighting conditions, while 5203 has a softer, dreamier tone—especially perfect for midday shots and big open skies.
+ 
+
 
 <div class="gallery-menu">
   <ul>
