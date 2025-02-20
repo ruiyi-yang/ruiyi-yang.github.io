@@ -97,11 +97,9 @@ My first name is pronounced rway-ee.
  
 All the film photos in this gallery were taken with my **Canon EOS Rebel 2000**, a camera that has been with me for years, traveling across the U.S. and Hong Kong—from California to Mong Kok, and everywhere in between. I'm still new to photography, exploring different films and learning as I go, but I love how each roll brings its own unique character to the images I capture.
 
-I often shoot with **Kodak UltraMax 400**, a super versatile film with fine grain, great dynamic range, and a slight bias toward blues—perfect for almost any lighting condition, even indoors with flash. **Kodak Portra 160 and 400** are my go-to for portraits, thanks to their natural skin tones, soft grain, and incredible latitude. **Kodak Gold 200**, with its warm, golden hues, looks great in bright daylight but tends to lean heavily yellow in low light.
+I often shoot with **Kodak UltraMax 400**, a super versatile film with fine grain, great dynamic range, and a slight bias toward blues—perfect for almost any lighting condition, even indoors with flash. **Kodak Portra 160 and 400** are my go-to for portraits, thanks to their soft grain and incredible latitude. **Kodak Gold 200**, with its warm, golden hues, looks great in bright daylight but tends to lean heavily yellow in low light.
 
-For a slightly different look, I also use **Fuji C200**, which adapts beautifully to different lighting—crisp and vibrant in sunlight, with a moodier, vintage feel in the shadows. Its lower ISO sibling, **Fuji C100**, has even finer grain and a softer, more pastel-like color palette. **Fuji X-Tra 400** is another favorite, offering rich colors, good contrast, and slightly redder skin tones, making it a great choice for portraits and everyday shooting.
-
-Lately, I’ve also been experimenting with **Kodak Vision3 5207 and 5203**, cinematic films that deliver deep, rich colors and a signature movie-like look. 5207 works well in a variety of lighting conditions, while 5203 has a softer, dreamier tone—especially perfect for midday shots and big open skies.
+For a slightly different look, I also use **Fuji C200**, which adapts beautifully to different lighting—crisp and vibrant in sunlight, with a moodier, vintage feel in the shadows. Its lower ISO sibling, **Fuji C100**, has even finer grain and a softer, more pastel-like color palette. Lately, I’ve also been experimenting with **Kodak Vision3 5207 and 5203**, cinematic films that deliver deep, rich colors and a signature movie-like look. 5207 works well in a variety of lighting conditions, while 5203 has a softer, dreamier tone—especially perfect for midday shots and big open skies.
  
 
 
