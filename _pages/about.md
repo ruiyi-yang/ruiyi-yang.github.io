@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
  
   
-My research interests revolve around **Development Economics** and **Spatial Interaction**, with special emphasis on how social networks shape urban dynamics, and on how intergenerational inequality unfolds in developing contexts—with implications for long-term economic growth and social mobility. I am also interested in understanding how social structures and institutional mechanisms influence mobility and the welfare of future generations.
+My research interests revolve around **Development Economics** and **Spatial Interaction**, with special emphasis on how social networks shape urban dynamics and on how intergenerational inequality unfolds in developing contexts—with implications for long-term economic growth and social mobility. I am also interested in understanding how social structures and institutional mechanisms influence mobility and the welfare of future generations.
 
  
 My first name is pronounced rway-ee.
