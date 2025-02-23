@@ -32,8 +32,7 @@ My first name is pronounced rway-ee.
 - *2022.07 - 2022.08*, Pembroke College, University of Cambridge. 
 
 
-
-# Contact
+ 
  {: #contact }
 Please contact me at ruiyi_yang[at]connect.hku.hk.
 
