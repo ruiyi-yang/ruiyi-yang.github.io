@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
  
-My research interests revolve around **Development Economics** and **Spatial Interaction**, with special emphasis on how the quality and extent of social networks shape urban dynamics—with implications for neighborhood formation, segregation, and economic growth. I am also interested in understanding how institutional mechanisms influence mobility and the welfare of future generations.
- 
+My research interests lie at the intersection of **Development Economics**, **Spatial Interaction**, and **Political Geography**. I focus on two key areas. First, I explore how political structures and governance at various spatial scales shape policies and practices that affect intergenerational inequality. This includes examining how spatial planning and regional development strategies can either mitigate or reinforce disparities, as well as how institutional mechanisms influence mobility and the welfare of future generations. Second, I investigate how the quality and extent of social networks shape urban dynamics—with implications for neighborhood formation, segregation, and economic growth.
+
 My first name is pronounced rway-ee.
+
+Feel free to reach out to ruiyi_yang[at]connect.hku.hk.
 
  
 ## Degree Educations  
