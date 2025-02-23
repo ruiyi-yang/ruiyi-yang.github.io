@@ -21,8 +21,6 @@ My research interests lie at the intersection of **Development Economics**, **Sp
 
 My first name is pronounced rway-ee.
 
-Please contact me at ruiyi_yang[at]connect.hku.hk.
-
  
 ## Degree Educations  
 - *2021.09 - 2025.06*, Bachelor of Economics, The University of Hong Kong.  
@@ -35,15 +33,17 @@ Please contact me at ruiyi_yang[at]connect.hku.hk.
 
 
 
+# Contact
+ {: #contact }
+Please contact me at ruiyi_yang[at]connect.hku.hk.
+
+
+
 # Projects
  {: #projects }
 
   
-
-
-
-
-
+ 
 
 
 # Gallery
