@@ -2,10 +2,7 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-
-  - title: "Contact"
-    url: "/#contact"
-
+ 
   - title: "Projects"
     url: "/#projects"
 
