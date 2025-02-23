@@ -21,7 +21,7 @@ My research interests lie at the intersection of **Development Economics**, **Sp
 
 My first name is pronounced rway-ee.
 
-Feel free to reach out to ruiyi_yang[at]connect.hku.hk.
+Please contact me at ruiyi_yang[at]connect.hku.hk.
 
  
 ## Degree Educations  
