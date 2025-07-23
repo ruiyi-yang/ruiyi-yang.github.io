@@ -320,10 +320,6 @@ Please contact me at ruiyi[at]connect.hku.hk.
 
 ## Gelato
 {: #gelato }
- 
-Meet Gelato (雪糕), my short-legged Napoleon cat born on September 4, 2023. She joined my life on my 22nd birthday and has been my little bundle of joy ever since. You can catch more of her adorable adventures on her Instagram account [@gelato_meowmeow](https://www.instagram.com/gelato_meowmeow).
-
- 
 
 <div class="gallery-grid">
   {% for image in site.static_files %}
