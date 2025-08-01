@@ -13,6 +13,8 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
 /* system typefaces */
+
+$chiron-hei-hk。            : 'Chiron Hei HK', serif;
 $cactus-classical-serif     : 'Cactus Classical Serif', serif;
 $serif                      : Georgia, Times, serif;
 $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
@@ -22,7 +24,7 @@ $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
+$sans-serif-narrow          : $sans-serif;    
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
@@ -32,8 +34,8 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $cactus-classical-serif;
-$header-font-family         : $sans-serif;
+$global-font-family         : $chiron-hei-hk;
+$header-font-family         : $chiron-hei-hk;
 $caption-font-family        : $serif;
 
 /* type scale */
