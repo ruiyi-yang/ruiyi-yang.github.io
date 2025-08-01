@@ -13,6 +13,7 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
 /* system typefaces */
+$cactus-classical-serif     : 'Cactus Classical Serif', serif;
 $serif                      : Georgia, Times, serif;
 $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
@@ -31,7 +32,7 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
+$global-font-family         : $cactus-classical-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
