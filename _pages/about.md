@@ -231,7 +231,7 @@ My first name is pronounced rway-ee.
 
 ---
 
-## Dali, Yunnan 大理 
+## Dali, Yunnan  
 {: #dali }
 
 <div class="gallery-grid">
@@ -246,7 +246,7 @@ My first name is pronounced rway-ee.
 
 ---
 
-## Fuzhou, Fujian 福州 
+## Fuzhou, Fujian   
 {: #fuzhou }
 
 <div class="gallery-grid">
