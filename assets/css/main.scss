@@ -107,3 +107,18 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.author__name {
+  margin-bottom: 0.2em;   /* reduce gap below name */
+}
+
+.author__pronouns {
+  margin-top: 0;          /* remove extra space above */
+  margin-bottom: 0.4em;   /* small gap below */
+  font-style: italic;     /* optional: subtle style */
+  color: #444;            /* optional: softer than name */
+}
+
+.author__bio {
+  margin-top: 0;          /* closes gap between pronouns and bio */
+}
