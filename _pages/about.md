@@ -42,7 +42,8 @@ My first name is pronounced rway-ee.
 **Governance Fragmentation and the Tragedy of the Commons: A Spatial Econometric Analysis of Groundwater Extraction in the U.S.**
 
 **Declining Population and Endogenous Growth: Evidence from Dynamic Panel Data of Developed Economies**
-  
+
+**From Manuscript to Knowledge Graph: LLMs for Classical Chinese Texts**
  
 
 
