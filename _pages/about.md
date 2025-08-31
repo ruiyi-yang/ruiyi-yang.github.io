@@ -43,7 +43,7 @@ My first name is pronounced rway-ee.
 
 **Declining Population and Endogenous Growth: Evidence from Dynamic Panel Data of Developed Economies**
 
-**From Manuscript to Knowledge Graph: LLMs for Classical Chinese Texts**
+**From Manuscript to Knowledge Graph: LLMs for Classical Chinese Texts** *(in progress)*
  
 
 
