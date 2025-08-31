@@ -35,6 +35,30 @@ My first name is pronounced rway-ee.
 </script>
 
 
+## Degree Education
+<div style="display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
+
+  <!-- Left column -->
+  <div style="flex: 1; min-width: 250px;">
+    <h3>Interests</h3>
+    <ul>
+      <li>Development Economics</li>
+      <li>Spatial Interaction</li>
+      <li>Economic Geography</li>
+    </ul>
+  </div>
+
+  <!-- Right column -->
+  <div style="flex: 1; min-width: 250px;">
+    <h3>Education</h3>
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>🎓 <em>2025.11 - Present<em>, <strong>PhD in Geography</strong>, The University of Hong Kong</li> 
+      <li>🎓 <em>2021.09 - 2025.06<em>, <strong>Bachelor of Economics</strong>, The University of Hong Kong</li>
+    </ul>
+  </div>
+
+</div>
+
 
 # Projects
  {: #projects }
