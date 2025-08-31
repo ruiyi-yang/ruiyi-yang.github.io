@@ -113,10 +113,11 @@ h1:before, .anchor:before {
 }
 
 .author__pronouns {
-  margin-top: 0.1;          /* remove extra space above */
-  margin-bottom: 0.2em;   /* small gap below */
-  font-style: italic;     /* optional: subtle style */
-  color: #bab5b5;            /* optional: softer than name */
+  font-style: italic;
+  font-size: 0.85em;   /* smaller than name */
+  font-weight: normal; /* lighter than name */
+  margin-left: 0.25em; /* tiny space before (she/her) */
+  color: #555;         /* softer color */
 }
 
 .author__bio {
