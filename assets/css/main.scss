@@ -112,27 +112,4 @@ h1:before, .anchor:before {
 .author__bio {
   margin-top: 0;          /* closes gap between pronouns and bio */
 }
-
-
-/* === Lato font override === */
-html, body {
-  font-family: 'Lato', sans-serif !important;
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif !important;
-  font-weight: 700;
-  line-height: 1.25;
-}
-
-em, i, .italic {
-  font-style: italic;
-  font-weight: 400;
-}
-
-/* Optional: slightly lighter secondary text */
-.small, .meta, .author__pronouns, .site-subtitle {
-  font-weight: 300;
-}
-
+ 
