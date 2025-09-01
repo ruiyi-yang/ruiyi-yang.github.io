@@ -18,28 +18,41 @@ p, li, blockquote {
 
  
 /* ===== Nav bar background and link colors ===== */
-.masthead, .greedy-nav {
-  background-color: #50648c;
+.masthead,
+.greedy-nav {
+  background-color: #50648c;  
 }
 
-/* primary menu links */
+/* force nav to span full width */
+.masthead,
+.greedy-nav {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-shadow: none;
+  border: none;
+}
+
+/* remove the white background that appears inside */
+.greedy-nav {
+  background: transparent !important;
+}
+
+/* nav links */
 .greedy-nav .visible-links a,
-.greedy-nav .hidden-links a,
-.masthead__menu-item a {
-  color: #ffffff !important;
+.greedy-nav .hidden-links a {
+  color: #ffffff !important;  /* white text */
   font-weight: 500;
 }
 
-/* hover/focus */
 .greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a:focus,
-.masthead__menu-item a:hover,
-.masthead__menu-item a:focus {
-  color: #ffcc00 !important;
+.greedy-nav .visible-links a:focus {
+  color: #ffcc00 !important;  /* gold on hover */
 }
 
-/* site title color (left side) */
-.greedy-nav .site-title,
-.greedy-nav .site-title:visited {
+/* site title on the left */
+.greedy-nav .site-title {
   color: #ffffff !important;
 }
