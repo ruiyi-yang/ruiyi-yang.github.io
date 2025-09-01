@@ -21,13 +21,13 @@ p, li, blockquote {
 
 /* Change background color of the whole top bar */
 .masthead {
-  background-color: #00369f; /* replace with your preferred color */
+  background-color: #00369f;  
 }
 
 /* Change font color of menu items */
 .masthead__menu-item a {
   color: #ffffff !important;   /* white text */
-  font-weight: 500;            /* optional: make a bit bolder */
+  font-weight: 500;            /* make a bit bolder */
 }
 
 /* Change font color on hover/active */
