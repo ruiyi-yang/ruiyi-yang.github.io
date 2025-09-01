@@ -16,22 +16,30 @@ p, li, blockquote {
 }
 
 
-
-/* ====== Customize navigation bar ====== */
-
-/* Change background color of the whole top bar */
-.masthead {
-  background-color: #50648c;  
+ 
+/* ===== Nav bar background and link colors ===== */
+.masthead, .greedy-nav {
+  background-color: #50648c;
 }
 
-/* Change font color of menu items */
+/* primary menu links */
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
 .masthead__menu-item a {
-  color: #ffffff !important;   /* white text */
-  font-weight: 500;            /* make a bit bolder */
+  color: #ffffff !important;
+  font-weight: 500;
 }
 
-/* Change font color on hover/active */
+/* hover/focus */
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus,
 .masthead__menu-item a:hover,
 .masthead__menu-item a:focus {
-  color: #ffcc00 !important;   /* gold hover color */
+  color: #ffcc00 !important;
+}
+
+/* site title color (left side) */
+.greedy-nav .site-title,
+.greedy-nav .site-title:visited {
+  color: #ffffff !important;
 }
