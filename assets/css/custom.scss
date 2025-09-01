@@ -17,42 +17,34 @@ p, li, blockquote {
 
 
  
-/* ===== Nav bar background and link colors ===== */
+/* ===== Nav bar styling ===== */
+
+/* whole top bar */
 .masthead,
 .greedy-nav {
   background-color: #50648c;  
-}
-
-/* force nav to span full width */
-.masthead,
-.greedy-nav {
   max-width: 100% !important;
   width: 100% !important;
   margin: 0 !important;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-shadow: none;
   border: none;
+  box-shadow: none;
 }
 
-/* remove the white background that appears inside */
+/* remove the default white fill inside greedy-nav */
 .greedy-nav {
   background: transparent !important;
 }
 
-/* nav links */
+/* nav links (About Me, Projects, Gallery) */
 .greedy-nav .visible-links a,
-.greedy-nav .hidden-links a {
+.greedy-nav .hidden-links a,
+.masthead__menu-item a {
   color: #ffffff !important;  /* white text */
   font-weight: 500;
 }
 
-.greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a:focus {
-  color: #ffcc00 !important;  /* gold on hover */
-}
-
 /* site title on the left */
-.greedy-nav .site-title {
+.greedy-nav .site-title,
+.greedy-nav .site-title:visited {
   color: #ffffff !important;
 }
