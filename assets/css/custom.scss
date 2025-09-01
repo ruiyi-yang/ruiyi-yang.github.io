@@ -14,3 +14,24 @@ p, li, blockquote {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
+
+
+
+/* ====== Customize navigation bar ====== */
+
+/* Change background color of the whole top bar */
+.masthead {
+  background-color: #00369f; /* replace with your preferred color */
+}
+
+/* Change font color of menu items */
+.masthead__menu-item a {
+  color: #ffffff !important;   /* white text */
+  font-weight: 500;            /* optional: make a bit bolder */
+}
+
+/* Change font color on hover/active */
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: #ffcc00 !important;   /* gold hover color */
+}
