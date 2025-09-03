@@ -20,11 +20,11 @@ p, li, blockquote {
   font-weight: 400;
 }
 
-/* Navigation and site title */
+/* Navigation and site title (Lora / Spectral) */
 .greedy-nav .site-title,
 .greedy-nav .visible-links a,
 .greedy-nav .hidden-links a {
-  font-family: 'Spectral', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   font-weight: 700;
   color: #ffffff; /* keep them white if bar is blue */
 }
@@ -33,7 +33,7 @@ p, li, blockquote {
 .author__name,
 .author__bio,
 .author__pronouns {
-  font-family: 'Spectral', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
 }
 
  
