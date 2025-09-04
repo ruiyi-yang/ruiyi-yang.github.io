@@ -61,3 +61,21 @@ p, li, blockquote {
 .greedy-nav .site-title:visited {
   color: #ffffff !important;
 }
+
+
+
+
+/* Navigation bar height + font size */
+.greedy-nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead__menu-item a {
+  font-size: 1.1rem;
+  font-weight: 600;   /* SemiBold if your font supports it */
+  line-height: 1.4;
+}
+
