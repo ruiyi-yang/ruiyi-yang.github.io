@@ -52,8 +52,10 @@ p, li, blockquote {
 .greedy-nav .hidden-links a,
 .masthead__menu-item a {
   font-family: 'Lato', sans-serif !important;
-  color: #ffffff !important;   /* white text */
-  font-weight: 400;            /* Medium 500 */
+  color: #ffffff !important;   /* white text */ 
+  font-size: 1.1rem;
+  font-weight: 500;    
+  line-height: 1.4;
 }
 
 /* site title on the left */
@@ -65,17 +67,9 @@ p, li, blockquote {
 
 
 
-/* Navigation bar height + font size */
+/* Navigation bar height */
 .greedy-nav {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
 }
-
-.greedy-nav .visible-links a,
-.greedy-nav .hidden-links a,
-.masthead__menu-item a {
-  font-size: 1.1rem;
-  font-weight: 500;    
-  line-height: 1.4;
-}
-
+ 
