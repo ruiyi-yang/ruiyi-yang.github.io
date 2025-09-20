@@ -37,9 +37,9 @@ Regional Development
 <div markdown="1">
  
 ## Education
-PhD in Geography, The University of Hong Kong <span class="time">(2025–Present)</span>    
+PhD in Geography, The University of Hong Kong  <span class="time"> (2025–Present)</span>    
 
-Bachelor of Economics, The University of Hong Kong <span class="time">(2021–2025)</span>  
+Bachelor of Economics, The University of Hong Kong  <span class="time"> (2021–2025)</span>  
  
 </div>
 </div>
@@ -84,11 +84,7 @@ Bachelor of Economics, The University of Hong Kong <span class="time">(2021–20
   </div>
 </details>
 
-  
- 
-
-
-<details class="proj">
+ <details class="proj">
   <summary markdown="span">**Declining Population and Endogenous Growth: Evidence from Developed Economies**</summary>
   <div markdown="1">
   This coursework paper develops a framework that integrates Becker’s dynastic fertility theory with the Uzawa–Lucas approach to endogenous growth. The framework predicts that diminishing returns to human capital accumulation eventually induce a reallocation of factors toward a more efficient configuration, allowing economies to sustain per-capita output growth over time even under negative population growth. Using the system GMM estimator and panel data for 43 developed countries over 1970-2019, this endogenous mechanism of human capital accumulation sustaining economic growth is investigated by examining the relationship between human capital, the estimated rate of increasing returns to education, output growth, and population growth. The empirical evidence is consistent with the theoretical results.
@@ -104,15 +100,25 @@ Bachelor of Economics, The University of Hong Kong <span class="time">(2021–20
  
   
 <style>
+/* existing styles */
 .proj{ margin:.5rem 0 1rem; }
-.proj > summary{ cursor:pointer; font-weight:600; list-style:none; }
+.proj > summary{ cursor:pointer; font-weight:600; }
 .proj > summary::-webkit-details-marker{ display:none; }
+
+/* Kill all native/theme markers/icons */
+.proj > summary{
+  list-style:none;
+  display:flex; align-items:center;
+}
+.proj > summary::marker{ content:""; }              /* Firefox */
+.proj > summary::-webkit-details-marker{ display:none; } /* Chrome/Safari */
+.proj > summary::before{ content:none !important; } /* theme +/- icons */
+
+/* your custom caret (keep if you want an icon) */
 .proj > summary::after{ content:" ▸"; color:#666; }
 details[open] > summary::after{ content:" ▾"; }
-
-/* If your theme injects anchor icons into headings/summary, hide them inside details */
-.proj summary .anchorjs-link { display:none !important; }
 </style>
+
 
 
 
