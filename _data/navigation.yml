@@ -6,5 +6,8 @@ main:
   - title: "Projects"
     url: "/#projects"
 
+  - title: "Softwares"
+    url: "/#softwares"
+    
   - title: "Gallery"
     url: https://ruiyi-yang.github.io/gallery/
