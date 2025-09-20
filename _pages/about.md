@@ -56,8 +56,8 @@ This project develops a framework for digitizing and extracting structured knowl
 
 
 
-# Softwares
- {: #softwares }
+# Software 
+ {: #software }
 
 [**causalSenseCheck**](https://github.com/yryrena/causalSenseCheck) is an R package that provides a unified toolkit for researchers interested in evaluating the credibility of causal claims. It integrates a variety of diagnostic approaches—including placebo checks, robustness analyses, sensitivity methods, and multiple estimators—within a single, coherent workflow. The package is designed to make rigorous causal inference diagnostics more accessible. With clear syntax, intuitive visualizations, and automated reporting features, the package helps researchers assess the stability of their results, identify potential weaknesses, and present findings in a transparent and reproducible way.
 
