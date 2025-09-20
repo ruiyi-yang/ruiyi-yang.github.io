@@ -42,8 +42,7 @@ The University of Hong Kong
 
 ### Interests
 - Urban Evolution  
-- Regional Development  
-- Computational Social Science
+- Regional Development   
 
 </div>
 </div>
