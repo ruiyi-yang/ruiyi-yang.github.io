@@ -99,25 +99,28 @@ Bachelor of Economics, The University of Hong Kong  <span class="time"> (2021–
 </details>
  
   
-<style>
-/* existing styles */
-.proj{ margin:.5rem 0 1rem; }
-.proj > summary{ cursor:pointer; font-weight:600; }
-.proj > summary::-webkit-details-marker{ display:none; }
+.proj { margin:.5rem 0 1rem; }
 
-/* Kill all native/theme markers/icons */
 .proj > summary{
+  cursor:pointer;
+  font-weight:600;
   list-style:none;
-  display:flex; align-items:center;
+  display:flex;               /* so the icon sits before the text */
+  align-items:center;
+  gap:.5rem;                  /* space between icon and title */
 }
-.proj > summary::marker{ content:""; }              /* Firefox */
-.proj > summary::-webkit-details-marker{ display:none; } /* Chrome/Safari */
-.proj > summary::before{ content:none !important; } /* theme +/- icons */
 
-/* your custom caret (keep if you want an icon) */
-.proj > summary::after{ content:" ▸"; color:#666; }
-details[open] > summary::after{ content:" ▾"; }
-</style>
+/* hide native markers */
+.proj > summary::marker{ content:""; }                 /* Firefox */
+.proj > summary::-webkit-details-marker{ display:none; } /* Chrome/Safari */
+
+/* caret at the FRONT */
+.proj > summary::before{ content:"▸"; color:#666; }
+details[open] > summary::before{ content:"▾"; }
+
+/* if your theme injects anchor icons into summary, hide them */
+.proj summary .anchorjs-link{ display:none !important; }
+
 
 
 
