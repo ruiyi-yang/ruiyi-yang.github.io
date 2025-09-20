@@ -30,16 +30,18 @@ My first name is pronounced rway-ee.
 <div markdown="1">
 
 ## Interests
-- Urban Evolution  
-- Regional Development   
+Urban Evolution  
+
+Regional Development   
 </div>
 
 <div markdown="1">
  
 ## Education
-- PhD in Geography (2025–Present), <span class="school">The University of Hong Kong</span>  
-- Bachelor of Economics (2021–2025), <span class="school">The University of Hong Kong</span>  
+**PhD in Geography (2025–Present)**, <span class="school">The University of Hong Kong</span>  
 
+**Bachelor of Economics (2021–2025)**, <span class="school">The University of Hong Kong</span>
+ 
 </div>
 </div>
  
@@ -87,15 +89,23 @@ My first name is pronounced rway-ee.
 
   This project develops a framework for digitizing and extracting structured knowledge from historical Chinese texts written in *wenyan* (Classical Chinese). It seeks to integrate digitization, character normalization, and punctuation restoration with fine-tuned large language models to achieve accurate interpretation of unpunctuated, context-dependent passages. The models are being trained to handle tasks including named entity recognition, event extraction, and relational mapping, with the goal of transforming raw manuscripts into structured knowledge graphs that capture the people, places, events, and institutions recorded in the texts. Ultimately, the project aims to enable semantic querying of complex historical records and to provide historians with a powerful tool for detecting patterns, validating interpretations, and linking disparate archival sources within a unified digital knowledge base.
 </details>
- 
-<style>
+  
+
+ <style>
 .proj{ margin: .5rem 0 1rem; }
 .proj > summary{ cursor:pointer; font-weight:600; list-style:none; }
 .proj > summary::-webkit-details-marker{ display:none; }
+
+.proj > summary::after {
+  content: " ▸";
+  font-weight: normal;
+  color: #666;
+}
+details[open] > summary::after {
+  content: " ▾";
+}
 </style>
 
-
- 
 
    
  
