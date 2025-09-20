@@ -100,9 +100,10 @@ Regional Development
 </details>
  
   
+<style>
 .proj { margin:.5rem 0 1rem; }
 
-.proj > summary{
+.proj > summary {
   cursor:pointer;
   font-weight:600;
   list-style:none;
@@ -112,15 +113,16 @@ Regional Development
 }
 
 /* hide native markers */
-.proj > summary::marker{ content:""; }                 /* Firefox */
-.proj > summary::-webkit-details-marker{ display:none; } /* Chrome/Safari */
+.proj > summary::marker { content:""; }                  /* Firefox */
+.proj > summary::-webkit-details-marker { display:none; } /* Chrome/Safari */
 
 /* caret at the FRONT */
-.proj > summary::before{ content:"▸"; color:#666; }
-details[open] > summary::before{ content:"▾"; }
+.proj > summary::before { content:"▸"; color:#666; }
+details[open] > summary::before { content:"▾"; }
 
 /* if your theme injects anchor icons into summary, hide them */
-.proj summary .anchorjs-link{ display:none !important; }
+.proj summary .anchorjs-link { display:none !important; }
+</style>
 
 
 
