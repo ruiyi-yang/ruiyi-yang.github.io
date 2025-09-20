@@ -22,8 +22,7 @@ My research interests lie at the intersection of **economic geography**, **urban
 
 My first name is pronounced rway-ee.
 
- 
- 
+
 
 <div class="two-col">
 
@@ -63,7 +62,9 @@ Bachelor of Economics, The University of Hong Kong <span class="time">(2021–20
 </style>
 
 
-
+ 
+ <br>
+ 
  {: #contact } 
 <script type="text/javascript">
   var user = "ruiyi";
