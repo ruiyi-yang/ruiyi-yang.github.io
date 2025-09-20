@@ -102,8 +102,8 @@ article.page {
 
 /* Sidebar column: fixed width; sits on the right because it renders second */
 .sidebar.sticky {
-  flex: 0 0 260px;           /* <-- set sidebar width here */
-  max-width: 260;
+  flex: 0 0 230px;           /* <-- set sidebar width here */
+  max-width: 300;
 }
 
 /* Tweak inner spacing of the sidebar if you like */
