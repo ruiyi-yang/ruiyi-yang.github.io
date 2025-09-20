@@ -110,3 +110,22 @@ Bachelor of Economics, 2021–2025
 
 [**causalSenseCheck**](https://github.com/yryrena/causalSenseCheck) is an R package that provides a unified toolkit for researchers interested in evaluating the credibility of causal claims. It integrates a variety of diagnostic approaches, including placebo checks, robustness analyses, sensitivity methods, and multiple estimators, within a single, coherent workflow. The package is designed to make rigorous causal inference diagnostics more accessible. With clear syntax, intuitive visualizations, and automated reporting features, the package helps researchers assess the stability of their results, identify potential weaknesses, and present findings in a transparent and reproducible way.
 
+
+<style>
+.two-col{
+  display:flex;
+  gap:2rem;
+  align-items:flex-start;
+  flex-wrap:wrap;      
+  margin-top:1rem;
+}
+.two-col > div{
+  flex:1 1 320px;   
+}
+.school {
+  color: #555;   /* dark grey */
+  font-weight: normal;
+}
+</style>
+
+
