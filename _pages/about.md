@@ -37,15 +37,12 @@ My first name is pronounced rway-ee.
 <div markdown="1">
  
 ## Education
-PhD in Geography, 2025–Present 
-<span class="school">The University of Hong Kong</span>  
-
-Bachelor of Economics, 2021–2025
-<span class="school">The University of Hong Kong</span>  
+- PhD in Geography (2025–Present), <span class="school">The University of Hong Kong</span>  
+- Bachelor of Economics (2021–2025), <span class="school">The University of Hong Kong</span>  
 
 </div>
 </div>
-
+ 
 <style>
 .two-col{
   display:flex;
@@ -57,7 +54,12 @@ Bachelor of Economics, 2021–2025
 .two-col > div{
   flex:1 1 320px;   
 }
+.school {
+  color: #555;   /* dark grey */
+  font-weight: normal;
+}
 </style>
+
 
 
  
@@ -66,9 +68,7 @@ Bachelor of Economics, 2021–2025
 
 # Projects
  {: #projects }
-
-
-
+ 
 <details class="proj" markdown="1">
   <summary><strong>Governance Fragmentation and the Tragedy of the Commons: A Spatial Econometric Analysis of Groundwater Extraction in the U.S.</strong></summary>
 
@@ -87,7 +87,7 @@ Bachelor of Economics, 2021–2025
 
   This project develops a framework for digitizing and extracting structured knowledge from historical Chinese texts written in *wenyan* (Classical Chinese). It seeks to integrate digitization, character normalization, and punctuation restoration with fine-tuned large language models to achieve accurate interpretation of unpunctuated, context-dependent passages. The models are being trained to handle tasks including named entity recognition, event extraction, and relational mapping, with the goal of transforming raw manuscripts into structured knowledge graphs that capture the people, places, events, and institutions recorded in the texts. Ultimately, the project aims to enable semantic querying of complex historical records and to provide historians with a powerful tool for detecting patterns, validating interpretations, and linking disparate archival sources within a unified digital knowledge base.
 </details>
-
+ 
 <style>
 .proj{ margin: .5rem 0 1rem; }
 .proj > summary{ cursor:pointer; font-weight:600; list-style:none; }
@@ -109,23 +109,5 @@ Bachelor of Economics, 2021–2025
  {: #software }
 
 [**causalSenseCheck**](https://github.com/yryrena/causalSenseCheck) is an R package that provides a unified toolkit for researchers interested in evaluating the credibility of causal claims. It integrates a variety of diagnostic approaches, including placebo checks, robustness analyses, sensitivity methods, and multiple estimators, within a single, coherent workflow. The package is designed to make rigorous causal inference diagnostics more accessible. With clear syntax, intuitive visualizations, and automated reporting features, the package helps researchers assess the stability of their results, identify potential weaknesses, and present findings in a transparent and reproducible way.
-
-
-<style>
-.two-col{
-  display:flex;
-  gap:2rem;
-  align-items:flex-start;
-  flex-wrap:wrap;      
-  margin-top:1rem;
-}
-.two-col > div{
-  flex:1 1 320px;   
-}
-.school {
-  color: #555;   /* dark grey */
-  font-weight: normal;
-}
-</style>
 
 
