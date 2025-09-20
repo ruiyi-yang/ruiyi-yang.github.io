@@ -73,22 +73,31 @@ p, li, blockquote {
   padding-bottom: 0.3rem;
 }
 
-
  
+
 
 /* Hide the default disclosure triangle */
 summary::-webkit-details-marker,
 summary::marker {
-  display: none;
+  display: none;   /* Chrome, Safari, Firefox */
+}
+
+summary {
+  list-style: none;  /* fallback for some browsers */
 }
 
 /* Add a Font Awesome icon before summary text */
 summary::before {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;     /* required for solid icons */
-  content: "\f067";     /* fa-plus icon */
+  font-family: "Font Awesome 6 Free"; 
+  font-weight: 900;     /* needed for solid style */
+  content: "\f067";     /* fa-plus (check Font Awesome cheatsheet) */
   margin-right: 0.5rem;
-  color: #004653;       /* icon color */
+  color: #004653;
+}
+
+/* Change icon when open */
+details[open] summary::before {
+  content: "\f068";     /* fa-minus */
 }
 
 
