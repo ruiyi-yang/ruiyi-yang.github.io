@@ -38,9 +38,9 @@ Regional Development
 <div markdown="1">
  
 ## Education
-**PhD in Geography (2025–Present)**, <span class="school">The University of Hong Kong</span>  
+PhD in Geography (2025–Present), <span class="school">The University of Hong Kong</span>  
 
-**Bachelor of Economics (2021–2025)**, <span class="school">The University of Hong Kong</span>
+Bachelor of Economics (2021–2025), <span class="school">The University of Hong Kong</span>
  
 </div>
 </div>
@@ -57,14 +57,19 @@ Regional Development
   flex:1 1 320px;   
 }
 .school {
-  color: #555;   /* dark grey */
+  color: #587998;    
   font-weight: normal;
 }
 </style>
 
 
 
- 
+ {: #contact } 
+<script type="text/javascript">
+  var user = "ruiyi";
+  var domain = "connect.hku.hk";
+  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
+</script>
 
 
 
