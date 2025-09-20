@@ -29,20 +29,19 @@ My first name is pronounced rway-ee.
 
 <div markdown="1">
 
-## Education
-**PhD in Geography, 2025–Present**  
-The University of Hong Kong  
-
-**Bachelor of Economics, 2021–2025**  
-The University of Hong Kong
-
-</div>
-
-<div markdown="1">
-
 ## Interests
 - Urban Evolution  
 - Regional Development   
+</div>
+
+<div markdown="1">
+ 
+## Education
+PhD in Geography, 2025–Present 
+<span class="school">The University of Hong Kong</span>  
+
+Bachelor of Economics, 2021–2025
+<span class="school">The University of Hong Kong</span>  
 
 </div>
 </div>
