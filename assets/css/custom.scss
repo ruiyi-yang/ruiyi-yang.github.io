@@ -74,20 +74,22 @@ p, li, blockquote {
 }
 
 
+ 
 
+/* Hide the default disclosure triangle */
+summary::-webkit-details-marker,
+summary::marker {
+  display: none;
+}
+
+/* Add a Font Awesome icon before summary text */
 summary::before {
   font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  content: "\f067";   /* fa-plus */
+  font-weight: 900;     /* required for solid icons */
+  content: "\f067";     /* fa-plus icon */
   margin-right: 0.5rem;
-  color: #00369f;
+  color: #004653;       /* icon color */
 }
-details[open] summary::before {
-  content: "\f068";   /* fa-minus */
-}
-
-
-
 
 
 
