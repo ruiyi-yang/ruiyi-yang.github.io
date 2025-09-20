@@ -56,7 +56,7 @@ Bachelor of Economics, The University of Hong Kong <span class="time">(2021–20
   flex:1 1 320px;   
 }
 .time {
-  color: #587998;    
+  color: #cbcbcb;    
   font-weight: normal;
 }
 </style>
