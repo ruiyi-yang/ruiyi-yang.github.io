@@ -52,3 +52,12 @@ This coursework paper develops a framework that integrates Becker’s dynastic f
 **Building Knowledge Graphs from Classical Chinese Manuscripts with LLMs** *(in progress)*
 
 This project develops a framework for digitizing and extracting structured knowledge from historical Chinese texts written in *wenyan* (Classical Chinese). It seeks to integrate digitization, character normalization, and punctuation restoration with fine-tuned large language models to achieve accurate interpretation of unpunctuated, context-dependent passages. The models are being trained to handle tasks including named entity recognition, event extraction, and relational mapping, with the goal of transforming raw manuscripts into structured knowledge graphs that capture the people, places, events, and institutions recorded in the texts. Ultimately, the project aims to enable semantic querying of complex historical records and to provide historians with a powerful tool for detecting patterns, validating interpretations, and linking disparate archival sources within a unified digital knowledge base.
+
+
+
+
+# Softwares
+ {: #softwares }
+
+**causalSenseCheck** is an R package that provides a unified toolkit for researchers interested in evaluating the credibility of causal claims. It integrates a variety of diagnostic approaches—including placebo checks, robustness analyses, sensitivity methods, and multiple estimators—within a single, coherent workflow. The package is designed to make rigorous causal inference diagnostics more accessible. With clear syntax, intuitive visualizations, and automated reporting features, **causalSenseCheck** helps researchers assess the stability of their results, identify potential weaknesses, and present findings in a transparent and reproducible way.
+
