@@ -62,12 +62,7 @@ The University of Hong Kong
 
 
  
-{: #contact } 
-<script type="text/javascript">
-  var user = "ruiyi";
-  var domain = "connect.hku.hk";
-  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
-</script>
+
 
 
 # Projects
