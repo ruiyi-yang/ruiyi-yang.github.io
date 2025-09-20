@@ -107,7 +107,7 @@ Regional Development
   cursor:pointer;
   font-weight:600;
   list-style:none;
-  display:flex;               /* so the icon sits before the text */
+  display:flex;               /* icon sits before the text */
   align-items:center;
   gap:.5rem;                  /* space between icon and title */
 }
@@ -116,13 +116,14 @@ Regional Development
 .proj > summary::marker { content:""; }                  /* Firefox */
 .proj > summary::-webkit-details-marker { display:none; } /* Chrome/Safari */
 
-/* caret at the FRONT */
-.proj > summary::before { content:"▸"; color:#666; }
-details[open] > summary::before { content:"▾"; }
+/* plus/minus at the FRONT */
+.proj > summary::before { content:"+"; color:#666; font-weight:bold; }
+details[open] > summary::before { content:"−"; } /* note: real minus sign, not hyphen */
 
 /* if your theme injects anchor icons into summary, hide them */
 .proj summary .anchorjs-link { display:none !important; }
 </style>
+
 
 
 
