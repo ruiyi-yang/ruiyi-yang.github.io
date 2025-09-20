@@ -96,7 +96,7 @@ article.page {
 
 /* Sidebar column: fixed width; sits on the right because it renders second */
 .sidebar.sticky {
-  flex: 0 0 300px;           /* <-- set sidebar width here */
+  flex: 0 0 250px;           /* <-- set sidebar width here */
   max-width: 300;
 }
 
@@ -117,6 +117,19 @@ article.page {
     order: 2;               /* content first, sidebar below */
   }
 }
+
+
+
+
+/* === Increase profile photo size === */
+.author__avatar img {
+  width: 220px;    
+  height: auto;   /* keep aspect ratio */
+  border-radius: 50%;  /* keeps it circular */
+}
+
+
+ 
 
 
  
