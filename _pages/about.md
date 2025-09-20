@@ -23,8 +23,29 @@ My research interests lie at the intersection of **economic geography**, **urban
 My first name is pronounced rway-ee.
 
  
-## Education
-- *2021.09 - 2025.06*, Bachelor of Economics, The University of Hong Kong.  
+ 
+<div style="display: flex; justify-content: space-between;">
+  
+<div style="width: 45%;">
+
+### Interests
+- Urban Evolution
+- Regional Development
+- Computational Social Science
+
+</div>
+
+<div style="width: 45%;">
+
+### Education
+**PhD in Geography, 2025-Present**  
+The University of Hong Kong    
+**Bachelor of Economics, 2021-2025**  
+The University of Hong Kong  
+
+</div>
+</div>
+
 
  
 {: #contact } 
@@ -33,8 +54,6 @@ My first name is pronounced rway-ee.
   var domain = "connect.hku.hk";
   document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
 </script>
-
- 
 
 
 # Projects
