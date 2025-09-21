@@ -44,9 +44,7 @@ Bachelor of Economics, The University of Hong Kong  <span class="time"> (2021–
 <div markdown="1">
  
 ## Interests
-Urban Evolution  
-
-Regional Development  
+Urban Evolution & Regional Development
 
 Political Economy of Geography
 
