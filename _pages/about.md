@@ -73,7 +73,7 @@ Computational Social Science
   flex:1 1 320px;   
 }
 .school {
-  color: #cbcbcb;    
+  color: #bebebe;    
   font-weight: normal;
 }
 </style>
