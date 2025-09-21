@@ -35,9 +35,11 @@ My first name is pronounced rway-ee.
 <div markdown="1">
 
 ## Education
-PhD in Geography, The University of Hong Kong  <span class="time"> (2025–Present)</span>    
+PhD in Geography, 2025–Present  
+&nbsp;<span class="time">The University of Hong Kong</span>  
 
-Bachelor of Economics, The University of Hong Kong  <span class="time"> (2021–2025)</span>  
+Bachelor of Economics, 2021–2025  
+&nbsp;<span class="time">The University of Hong Kong</span>  
 
 </div>
 
@@ -64,7 +66,7 @@ Computational Social Science
 .two-col > div{
   flex:1 1 320px;   
 }
-.time {
+.school {
   color: #cbcbcb;    
   font-weight: normal;
 }
