@@ -50,6 +50,8 @@ Regional Development
 
 Political Economy of Geography
 
+Computational Social Science
+
 </div>
 </div>
  
