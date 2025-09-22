@@ -52,7 +52,7 @@ Bachelor of Economics, 2021–2025
 ## Interests
 Urban Evolution  
 
-Regional Development
+Economic Development
 
 Regional Political Economy
 
