@@ -54,7 +54,7 @@ Urban Evolution
 
 Regional Development
 
-Geographical Political Economy 
+Regional Political Economy
 
 Computational Social Science
 
