@@ -1,18 +1,18 @@
-# Site Settings
+## site settings
 title                    : "Ruiyi Yang"
 description              : "Research Postgraduate Student at HKU Social Sciences"
 repository               : "ruiyi-yang/ruiyi-yang.github.io"
 google_scholar_stats_use_cdn : true
 
-# google analytics
+## google analytics
 google_analytics_id      :   
 
-# SEO Related
+## SEO related
 google_site_verification :  
 bing_site_verification   :   
 baidu_site_verification  :  
 
-# Site Author
+## site author
 author:
   name             : "Ruiyi YANG"
   pronouns         : "she/her"
@@ -52,7 +52,7 @@ author:
   wikipedia        : 
 
 
-# Reading Files
+## reading files
 include:
   - .htaccess
   - _pages
@@ -91,7 +91,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+## conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -99,7 +99,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+## markdown processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -111,7 +111,7 @@ kramdown:
   enable_coderay: false
   parse_block_html: true
 
-# Defaults
+## defaults
 defaults:
   # _pages
   - scope:
@@ -122,25 +122,25 @@ defaults:
       author_profile: true
 
 
-# Sass/SCSS
+## sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
+## outputting
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
+## plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+## mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -149,8 +149,8 @@ whitelist:
   - jemoji
 
 
-# HTML Compression
-# - http://jch.penibelst.de/
+## HTML Compression
+## - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
