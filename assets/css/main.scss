@@ -1,14 +1,6 @@
 ---
 ---
-
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ 
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -109,14 +101,14 @@ h1:before, .anchor:before {
 }
 
 .author__name {
-  margin-bottom: 0.2em;   /* reduce gap below name */
+  margin-bottom: 0.2em;    /* reduce gap below name */
 }
 
 .author__pronouns {
   font-style: italic;
-  font-size: 0.6em;   /* smaller than name */
-  font-weight: normal; /* lighter than name */
-  margin-left: 0.25em; /* tiny space before (she/her) */
+  font-size: 0.6em;       /* smaller than name */
+  font-weight: normal;    /* lighter than name */
+  margin-left: 0.25em;    /* tiny space before (she/her) */
   color: #bab5b5;         /* softer color */
 }
 
