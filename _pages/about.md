@@ -1,5 +1,6 @@
 ---
-permalink: /
+permalink: /about/
+layout: single
 title: ""
 excerpt: ""
 author_profile: true
