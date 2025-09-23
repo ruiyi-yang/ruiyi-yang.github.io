@@ -169,45 +169,69 @@ article.page { flex: 1 1 auto; min-width: 0; }
 }
 */
 
-/* Mobile: make avatar and text two columns, stop any overlap */
+/* === MOBILE STACK: photo on top, text below === */
 @media (max-width: 900px) {
-  /* ensure avatar isn't taken out of normal flow */
-  .author__avatar { float: none !important; position: static !important; }
-
-  /* grid layout for the whole author block (sidebar + any author section) */
-  .sidebar .author,
-  .author {
-    display: grid !important;
-    grid-template-columns: 128px 1fr; /* avatar width | text */
-    column-gap: 0.75rem;              /* space between photo and text */
-    align-items: center;              /* vertical align */
+  /* kill theme floats/margins that cause wrapping over the image */
+  .author__avatar {
+    float: none !important;
+    margin: 0 auto .75rem !important;   /* center the photo, add bottom gap */
+    position: static !important;
+    display: block !important;
+    text-align: center;                  /* some themes wrap img in a link */
   }
 
-  /* put the avatar in col 1 */
-  .author > .author__avatar { grid-column: 1; }
-
-  /* everything else (name, pronouns, bio, links) goes to col 2 */
-  .author > *:not(.author__avatar) { 
-    grid-column: 2; 
-    min-width: 0;     /* allow wrapping, prevents overflow */
-  }
-
-  /* image sizing (you said smaller worked well) */
   .author__avatar img {
-    width: 128px;
+    width: 128px;                        /* tune size if you like */
     height: auto;
     border-radius: 50%;
-    display: block;
+    display: inline-block;
   }
 
-  /* make sure long names/bios wrap, not overlap */
+  /* stack the block: avatar first, everything else below */
+  .sidebar .author,
+  .author {
+    display: flex !important;
+    flex-direction: column !important;   /* vertical stack */
+    align-items: center !important;      /* center-align content */
+    gap: 0 !important;
+  }
+
+  /* ensure text wraps and doesn’t overlap */
   .author__name,
-  .author__bio,
-  .author__pronouns {
-    white-space: normal;
-    overflow: visible;
+  .author__pronouns,
+  .author__bio {
+    width: 100%;
+    max-width: 28rem;                    /* optional: readable line length */
+    text-align: center;                  /* center the text under the photo */
+    white-space: normal !important;
+    overflow: visible !important;
+  }
+
+  /* social links under bio, neatly centered and wrapping */
+  .author__urls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem .75rem;
+    justify-content: center;             /* center icons/links */
+    width: 100%;
+    margin-top: .5rem;
+  }
+
+  /* sometimes themes put meta (email/location) in lists—keep them visible */
+  .author__urls,
+  .author__urls ul,
+  .author__urls li { display: flex; }
+  .author__urls ul { flex-wrap: wrap; gap: .5rem .75rem; }
+  .author__urls li { list-style: none; }
+
+  /* if your sidebar is sticky on mobile, keep enough space below the masthead */
+  .sidebar.sticky {
+    position: sticky;
+    top: calc(var(--masthead-h, 56px) + .5rem);
+    z-index: 1;
   }
 }
+
 
 /* Desktop: keep bigger avatar and wider gutter if you like */
 @media (min-width: 900px) {
