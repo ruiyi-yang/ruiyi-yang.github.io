@@ -22,13 +22,6 @@ My research interests lie at the intersection of **economic geography**, **urban
 
 My first name is pronounced rway-ee.
  
- {: #contact } 
-<script type="text/javascript">
-  var user = "ruiyi";
-  var domain = "connect.hku.hk";
-  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
-</script>
-
  
 
 
@@ -76,17 +69,13 @@ Computational Social Science
 }
 </style>
 
-
  
 
 
-
-
-   
+ {: #contact } 
+<script type="text/javascript">
+  var user = "ruiyi";
+  var domain = "connect.hku.hk";
+  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
+</script>
  
-
-
-
-
-
-
