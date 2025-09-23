@@ -350,3 +350,79 @@ article.page { flex: 1 1 auto; min-width: 0; }
 }
 
 
+
+/* =========================
+   PHONE: stack author cleanly
+   ========================= */
+@media (max-width: 900px) {
+  /* 0) (optional) ensure sidebar shows first on mobile */
+  /* .sidebar.sticky { order: -1; } */
+
+  /* 1) Kill floats/positioning that cause overlap */
+  .author__avatar,
+  .author__name,
+  .author__pronouns,
+  .author__bio,
+  .author__urls,
+  .author__urls-wrapper {
+    float: none !important;
+    position: static !important;
+    clear: both !important;           /* <<< guarantees each block goes below the previous one */
+  }
+
+  /* 2) Make the author area truly one column */
+  .sidebar .author,
+  .author {
+    display: block !important;        /* simplest: one block per line */
+    text-align: center;               /* center everything under the photo */
+  }
+
+  /* 3) Photo on top, centered, with spacing */
+  .author__avatar {
+    display: block !important;
+    margin: 0 auto 0.75rem !important;
+    text-align: center;
+  }
+  .author__avatar img {
+    display: block;
+    width: 128px;                     /* adjust if you want it bigger/smaller */
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  /* 4) Text blocks below the photo, full width, wrap safely */
+  .author__name,
+  .author__pronouns,
+  .author__bio,
+  .author__urls-wrapper,
+  .author__urls {
+    display: block !important;
+    width: 100% !important;
+    max-width: 28rem;                 /* readable line length */
+    margin: 0.25rem auto 0;           /* center + small top gaps */
+    white-space: normal !important;
+    overflow: visible !important;
+    overflow-wrap: anywhere;          /* long words/handles won’t collide with image */
+    word-break: break-word;
+  }
+
+  /* 5) Social row tidy + centered */
+  .author__urls {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem .75rem;
+  }
+  .author__urls a,
+  .author__urls .btn,
+  .author__urls li a {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  .author__urls li { list-style: none; }
+}
+
