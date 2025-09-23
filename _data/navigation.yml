@@ -5,9 +5,11 @@ main:
  
   - title: "Projects"
     url: "/#projects"
-
+    target: _self
+    
   - title: "Software"
     url: "/#software"
+    target: _self
     
   - title: "Gallery"
     url: https://ruiyi-yang.github.io/gallery/
