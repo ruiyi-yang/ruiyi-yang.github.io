@@ -1,27 +1,27 @@
 ---
 ---
-/* ===== global font override (Lato / Amulya Bold (700) and Synonym Regular (400)) ===== */
+/* ===== Global font override (Lato / Amulya Bold (700) and Synonym Regular (400)) ===== */
 
-/* body text → Lato Regular */
+/* Body text → Lato Regular */
 html, body {
   font-family: 'Lato', sans-serif !important;
   font-weight: 400;
 }
 
-/* headings → Lato Bold */
+/* Headings → Lato Bold */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif !important;
   font-weight: 700;
 }
 
-/* paragraphs, lists, blockquotes → Synonym */
+/* Paragraphs, lists, blockquotes → Synonym */
 p, li, blockquote {
   font-family: 'Lato', sans-serif !important;
   font-weight: 400;
 }
  
 
-/* sidebar author info → Lato */
+/* Sidebar author info → Lato */
 .author__name,
 .author__bio,
 .author__pronouns {
@@ -29,7 +29,7 @@ p, li, blockquote {
 }
 
  
-/* ===== nav bar styling ===== */
+/* ===== Nav bar styling ===== */
 
 /* whole top bar */
 .masthead,
@@ -47,12 +47,12 @@ p, li, blockquote {
   background: transparent !important;
 }
 
-/* nav links (About, Projects, Software, Gallery) */
+/* nav links (About Me, Projects, Gallery) */
 .greedy-nav .visible-links a,
 .greedy-nav .hidden-links a,
 .masthead__menu-item a {
   font-family: 'Lato', sans-serif !important;
-  color: #ffffff !important;              /* white text */ 
+  color: #ffffff !important;   /* white text */ 
   font-size: 1.1rem;
   font-weight: 500;    
   line-height: 1.4;
@@ -63,65 +63,73 @@ p, li, blockquote {
 .greedy-nav .site-title:visited {
   color: #ffffff !important;
 }
- 
-/* navigation bar height */
+
+
+
+
+/* Navigation bar height */
 .greedy-nav {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
 }
+
  
-/* hide the default disclosure triangle */
+
+
+/* Hide the default disclosure triangle */
 summary::-webkit-details-marker,
 summary::marker {
-  display: none;                         /* Chrome, Safari, Firefox */
+  display: none;   /* Chrome, Safari, Firefox */
 }
 
 summary {
-  list-style: none;                      /* fallback for some browsers */
+  list-style: none;  /* fallback for some browsers */
 }
 
-/* add a Font Awesome icon before summary text */
+/* Add a Font Awesome icon before summary text */
 summary::before {
   font-family: "Font Awesome 6 Free"; 
-  font-weight: 900;                      /* needed for solid style */
-  content: "\f067";                      /* fa-plus (check Font Awesome cheatsheet) */
+  font-weight: 900;     /* needed for solid style */
+  content: "\f067";     /* fa-plus (check Font Awesome cheatsheet) */
   margin-right: 0.5rem;
   color: #004653;
 }
 
-/* change icon when open */
+/* Change icon when open */
 details[open] summary::before {
-  content: "\f068";                       /* fa-minus */
+  content: "\f068";     /* fa-minus */
 }
- 
 
-/* ===== layout: sidebar on right, custom widths ===== */
 
-/* make the main area a flex row so we can position and size columns */
+
+
+/* ===== Layout: sidebar on right, custom widths ===== */
+
+/* Make the main area a flex row so we can position and size columns */
 #main {
   display: flex;
-  gap: 2rem;                              /* space between content and sidebar */
-  align-items: flex-start;                /* top-align columns */
+  gap: 2rem;                 /* space between content and sidebar */
+  align-items: flex-start;   /* top-align columns */
 }
 
-/* content column (article) should take remaining width */
+/* Content column (article) should take remaining width */
 article.page {
   flex: 1 1 auto;
-  min-width: 0;                           /* prevents overflow when content is wide */
+  min-width: 0;              /* prevents overflow when content is wide */
 }
 
-/* sidebar column: fixed width; sits on the right because it renders second */
+/* Sidebar column: fixed width; sits on the right because it renders second */
 .sidebar.sticky {
-  flex: 0 0 210px;                        /*  set sidebar width */
+  flex: 0 0 210px;           /* <-- set sidebar width here */
   max-width: 300;
 }
 
-/* tweak inner spacing of the sidebar if you like */
+/* Tweak inner spacing of the sidebar if you like */
 .sidebar.sticky {
   padding-top: 0.5rem;
 }
 
-/* keep things readable on small screens: stack columns */
+/* Keep things readable on small screens: stack columns */
 @media (max-width: 900px) {
   #main {
     flex-direction: column;
@@ -130,13 +138,21 @@ article.page {
     flex: 0 0 auto;
     max-width: 100%;
     width: 100%;
-    order: 2;                           /* content first, sidebar below */
+    order: 2;               /* content first, sidebar below */
   }
 }
 
-/* === profile photo size === */
+ 
+
+/* === Increase profile photo size === */
 .author__avatar img {
   width: 210px;    
-  height: auto;                         /* keep aspect ratio */
-  border-radius: 50%;                   /* keeps it circular */
-} 
+  height: auto;   /* keep aspect ratio */
+  border-radius: 50%;  /* keeps it circular */
+}
+
+
+ 
+
+
+ 
