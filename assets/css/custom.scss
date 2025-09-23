@@ -168,14 +168,14 @@ article.page { flex: 1 1 auto; min-width: 0; }
   }
 }
 
-/* smaller, tighter author block on phones */
+/* smaller, tighter author block on phones 
 @media (max-width: 900px) {
   .author__avatar img { width: 128px; height: auto; border-radius: 50%; }
   .author__name { font-size: 1.25rem; margin-bottom: .2em; }
   .author__pronouns { font-size: .8em; }
   .author__bio { margin-top: 0; }
 }
-
+*/
 
 /* 1) Remove any float from the theme that causes text to wrap over the avatar */
 .author__avatar { float: none !important; }
@@ -198,7 +198,7 @@ article.page { flex: 1 1 auto; min-width: 0; }
   flex: 0 0 auto;              /* prevents shrinking */
 }
 
-/* gext area must be allowed to shrink/wrap without overlapping */
+/* text area must be allowed to shrink/wrap without overlapping */
 .author__name,
 .author__pronouns,
 .author__bio,
