@@ -7,7 +7,7 @@ main:
     url: "/#projects"
 
   - title: "Software"
-    url: https://ruiyi-yang.github.io/software/
+    url: "/#software"
     
   - title: "Gallery"
     url: https://ruiyi-yang.github.io/gallery/
