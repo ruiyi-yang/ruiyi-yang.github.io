@@ -168,3 +168,11 @@ article.page { flex: 1 1 auto; min-width: 0; }
   }
 }
 
+/* smaller, tighter author block on phones */
+@media (max-width: 900px) {
+  .author__avatar img { width: 128px; height: auto; border-radius: 50%; }
+  .author__name { font-size: 1.25rem; margin-bottom: .2em; }
+  .author__pronouns { font-size: .8em; }
+  .author__bio { margin-top: 0; }
+}
+
