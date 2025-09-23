@@ -176,3 +176,44 @@ article.page { flex: 1 1 auto; min-width: 0; }
   .author__bio { margin-top: 0; }
 }
 
+
+/* 1) Remove any float from the theme that causes text to wrap over the avatar */
+.author__avatar { float: none !important; }
+
+/* 2) Make the author block a tidy flex row that wraps gracefully on phones */
+.sidebar .author,
+.author {                       /* cover both sidebar + generic author blocks */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .75rem .75rem;
+}
+
+/* Avatar sizing + behavior */
+.author__avatar img {
+  display: block;
+  width: 128px;                /* mobile-friendly size; adjust if you like */
+  height: auto;
+  border-radius: 50%;
+  flex: 0 0 auto;              /* prevents shrinking */
+}
+
+/* gext area must be allowed to shrink/wrap without overlapping */
+.author__name,
+.author__pronouns,
+.author__bio,
+.author__urls-wrapper,
+.author__urls {                 /* Minimal Mistakes uses these */
+  flex: 1 1 200px;              /* take remaining width; wrap if needed */
+  min-width: 0;                 /* critical for long words not to overflow */
+}
+
+/* Make sure lines can actually wrap (some themes set nowrap) */
+.author__name,
+.author__bio,
+.author__pronouns {
+  white-space: normal;
+  overflow: visible;
+}
+
+
