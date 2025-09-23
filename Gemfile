@@ -16,3 +16,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+## Windows / runtime helpers
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "webrick", "~> 1.8"
+gem "fiddle"
