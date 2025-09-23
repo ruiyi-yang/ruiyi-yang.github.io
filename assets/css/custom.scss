@@ -155,19 +155,7 @@ article.page { flex: 1 1 auto; min-width: 0; }
 
 /*  fix missing unit */
 .sidebar.sticky { flex: 0 0 210px; max-width: 300px; width: 210px; }
-
-/* Mobile: stack columns, put sidebar FIRST 
-@media (max-width: 900px) {
-  #main { flex-direction: column; }
-
-  /* bring sidebar to the top */
-  .sidebar.sticky {
-    order: -1;            /* was 2 → now top */
-    width: 100%;
-    max-width: 100%;
-  }
-}
-*/
+ 
 
 /* === MOBILE STACK: photo on top, text below === */
 @media (max-width: 900px) {
@@ -242,15 +230,7 @@ article.page { flex: 1 1 auto; min-width: 0; }
   .author__avatar img { width: 210px; }
 }
 
-
-/* smaller, tighter author block on phones 
-@media (max-width: 900px) {
-  .author__avatar img { width: 128px; height: auto; border-radius: 50%; }
-  .author__name { font-size: 1.25rem; margin-bottom: .2em; }
-  .author__pronouns { font-size: .8em; }
-  .author__bio { margin-top: 0; }
-}
-*/
+ 
 
 /* 1) Remove any float from the theme that causes text to wrap over the avatar */
 .author__avatar { float: none !important; }
