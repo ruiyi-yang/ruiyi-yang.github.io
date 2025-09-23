@@ -144,4 +144,27 @@ article.page {
 }
 
 
-  
+
+/* Base layout (unchanged) */
+#main {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+article.page { flex: 1 1 auto; min-width: 0; }
+
+/*  fix missing unit */
+.sidebar.sticky { flex: 0 0 210px; max-width: 300px; width: 210px; }
+
+/* Mobile: stack columns, put sidebar FIRST */
+@media (max-width: 900px) {
+  #main { flex-direction: column; }
+
+  /* bring sidebar to the top */
+  .sidebar.sticky {
+    order: -1;            /* was 2 → now top */
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
