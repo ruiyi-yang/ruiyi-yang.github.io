@@ -142,3 +142,26 @@ article.page {
   height: auto;                /* keep aspect ratio */
   border-radius: 50%;          /* keeps it circular */
 }
+
+
+
+/* About section layout */
+.two-col {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.two-col > div {
+  flex: 1 1 320px;
+}
+.school {
+  color: #bebebe;
+  font-weight: normal;
+}
+ 
+@media (max-width: 900px) {
+  .two-col { gap: 1.25rem; }
+}
+
