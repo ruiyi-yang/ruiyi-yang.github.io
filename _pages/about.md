@@ -79,6 +79,8 @@ Computational Social Science
 </style>
 
 
+
+---
  
 <div id="map" class="leaflet-map"></div>
 
