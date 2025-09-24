@@ -85,7 +85,7 @@ Computational Social Science
 
   // Thunderforest Neighbourhood (requires API key)
   L.tileLayer(
-    'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=YOUR_THUNDERFOREST_API_KEY',
+    'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=b60e8d7045594aaa909abffba4cd9453',
     {
       subdomains: ['a','b','c'],   // important for Thunderforest CDN
       maxZoom: 22,
