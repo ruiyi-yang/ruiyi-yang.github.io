@@ -217,8 +217,7 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 /* zoom buttons */
 .leaflet-control-zoom a {
-  border-radius: 8px !important;
-  box-shadow: 0 1px 6px rgba(0,0,0,.1);
+  border-radius: 8px !important; 
 }
 
 /*  subtle grayscale or tone on tiles */
