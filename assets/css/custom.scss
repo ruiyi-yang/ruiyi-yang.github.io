@@ -219,10 +219,6 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
   border-radius: 8px !important; 
 }
 
-/*  subtle grayscale or tone on tiles */
-#map .leaflet-tile {
-  filter: saturate(1.0) contrast(1.12);
-}
 /* auto grayscale in print */
 @media print {
   #map .leaflet-tile { filter: grayscale(100%); }
