@@ -1,21 +1,26 @@
+{% if page.url == "/about/" %}
 <script>
+  // HKU example — change to your coordinates if needed
   const LAT = 22.284, LNG = 114.136, ZOOM = 15;
 
   const map = L.map('map', { scrollWheelZoom: false, dragging: true })
                .setView([LAT, LNG], ZOOM);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
 
   L.marker([LAT, LNG]).addTo(map)
     .bindPopup('<b>HKU</b><br>Pok Fu Lam, Hong Kong')
     .openPopup();
 
-  map.on('wheel', function(e){
+  // Enable wheel-zoom only when user holds Ctrl/Cmd
+  map.on('wheel', function (e) {
     if (e.originalEvent.ctrlKey || e.originalEvent.metaKey) {
       map.scrollWheelZoom.enable();
       setTimeout(() => map.scrollWheelZoom.disable(), 1000);
     }
   });
 </script>
+{% endif %}
