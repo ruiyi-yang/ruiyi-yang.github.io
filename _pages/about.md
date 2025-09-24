@@ -80,57 +80,7 @@ Computational Social Science
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-<script>
-  const map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15);
-
-  // No-key basemaps
-  const cartoLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19, attribution: '&copy; OpenStreetMap &copy; CARTO'
-  });
-  const cartoDark  = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19, attribution: '&copy; OpenStreetMap &copy; CARTO'
-  });
-  const openTopo   = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    maxZoom: 17, attribution: 'Map data © OpenStreetMap; Tiles © OpenTopoMap'
-  });
-  const osmMapnik  = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'
-  });
-
-  // Keyed basemaps
-  const stadiaWater = L.tileLayer(
-    // Stamen Watercolor via Stadia Maps CDN
-    'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}{r}.jpg?api_key=YOUR_STADIA_API_KEY',
-    { maxZoom: 18, attribution: '&copy; OpenStreetMap & Stamen & Stadia Maps' }
-  );
-
-  const tfNeighbour = L.tileLayer(
-    'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=YOUR_THUNDERFOREST_API_KEY',
-    { maxZoom: 22, attribution: '&copy; OpenStreetMap & Thunderforest' }
-  );
-
-  // Default layer
-  cartoLight.addTo(map);
-
-  // Switcher
-  L.control.layers({
-    'CARTO Positron (light)': cartoLight,
-    'CARTO Dark Matter':      cartoDark,
-    'OpenTopoMap':            openTopo,
-    'OSM Mapnik':             osmMapnik,
-    'Stadia Watercolor':      stadiaWater,
-    'Thunderforest Neighbourhood': tfNeighbour
-  }, null, { position: 'topright', collapsed: false }).addTo(map);
-
-  L.marker([22.283,114.137]).addTo(map)
-    .bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong')
-    .openPopup();
-</script>
-
+--- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"> <div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script> <script> console.log('Leaflet present?', !!window.L); // should print true const map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19 }).addTo(map); L.marker([22.283,114.137]).addTo(map).bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong').openPopup(); </script>
 
 
 # Projects
