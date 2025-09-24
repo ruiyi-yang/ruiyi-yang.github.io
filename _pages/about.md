@@ -86,27 +86,25 @@ Computational Social Science
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"> 
 <div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div> 
 <script>
-  const map = L.map('map', {
-    scrollWheelZoom: false,
-    zoomSnap: 0.5,   // allows half-step zooms (crisper on high-DPI)
-    zoomDelta: 0.5
-  }).setView([22.283, 114.137], 17);
+  const map = L.map('map', { scrollWheelZoom: false })
+               .setView([22.283, 114.137], 16);
 
-  const tfUrl = L.Browser.retina
-    ? 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}@2x.png?apikey=b60e8d7045594aaa909abffba4cd9453'
-    : 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=b60e8d7045594aaa909abffba4cd9453';
-
-  L.tileLayer(tfUrl, {
-    subdomains: ['a','b','c'],
-    maxZoom: 22,
-    maxNativeZoom: 22,   
-    attribution: '&copy; OpenStreetMap contributors & Thunderforest'
-  }).addTo(map);
+  // Stadia OSM Bright (supports retina with {r})
+  L.tileLayer(
+    'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?api_key=043d3228-23e1-4525-8324-ce817b4f940e',
+    {
+      maxZoom: 20,
+      // Use retina tiles automatically when available
+      detectRetina: true,
+      attribution: '&copy; OpenMapTiles &copy; OpenStreetMap contributors'
+    }
+  ).addTo(map);
 
   L.marker([22.284,114.136]).addTo(map)
     .bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong')
     .openPopup();
 </script>
+
 
 
 
