@@ -83,12 +83,7 @@ Computational Social Science
 ---
  
 <div id="map" class="leaflet-map"></div>
-
-{% if page.url == "/about/" %}
-<script>
-  // same JS as above
-</script>
-{% endif %}
+ 
 
 
 
