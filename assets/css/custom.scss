@@ -268,8 +268,3 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
   background: rgba(0,0,0,.06) !important;
 }
 
-
-/* assets/css/custom.scss */
-.leaflet-map { height: 360px; }
-@media (min-width: 900px) { .leaflet-map { height: 560px; } }
-
