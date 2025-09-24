@@ -222,7 +222,7 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 /*  subtle grayscale or tone on tiles */
 #map .leaflet-tile {
-  filter: saturate(0.85) contrast(1.05);
+  filter: saturate(1.0) contrast(1.12);
 }
 /* auto grayscale in print */
 @media print {
