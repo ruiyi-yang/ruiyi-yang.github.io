@@ -93,7 +93,7 @@ Computational Social Science
   }).setView([22.283, 114.137], 17);
 
   const tfUrl = L.Browser.retina
-    ? 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}@2x.png?apikey=YOUR_KEY'
+    ? 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}@2x.png?apikey=b60e8d7045594aaa909abffba4cd9453'
     : 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=b60e8d7045594aaa909abffba4cd9453';
 
   L.tileLayer(tfUrl, {
