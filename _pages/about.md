@@ -49,7 +49,7 @@ Bachelor of Economics, 2021–2025
 
 <div markdown="1">
  
-## Interests
+## Research Interests
 Urban Evolution  
 
 Economic Development
