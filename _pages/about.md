@@ -89,12 +89,12 @@ Computational Social Science
   const map = L.map('map', { scrollWheelZoom: false })
                .setView([22.283, 114.137], 16);
 
-  // Stadia OSM Bright (supports retina with {r})
+  // Stadia OSM Bright  
   L.tileLayer(
     'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?api_key=043d3228-23e1-4525-8324-ce817b4f940e',
     {
       maxZoom: 20,
-      // Use retina tiles automatically when available
+      // retina tiles automatically when available
       detectRetina: true,
       attribution: '&copy; OpenMapTiles &copy; OpenStreetMap contributors'
     }
