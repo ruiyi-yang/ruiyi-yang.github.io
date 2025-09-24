@@ -80,6 +80,7 @@ Computational Social Science
 
 
  
+<div id="map" class="leaflet-map"></div>
 
 
 
