@@ -85,13 +85,24 @@ Computational Social Science
 --- 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"> 
 <div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div> 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script> 
-<script> 
-  console.log('Leaflet present?', !!window.L); 
-  map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15); 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19 }).addTo(map); 
-  L.marker([22.283,114.137]).addTo(map).bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong').openPopup(); 
+<script>
+  const map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15);
+
+  // Thunderforest Neighbourhood (requires API key)
+  L.tileLayer(
+    'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=b60e8d7045594aaa909abffba4cd9453',
+    {
+      subdomains: ['a','b','c'],   // important for Thunderforest CDN
+      maxZoom: 22,
+      attribution: '&copy; OpenStreetMap contributors & Thunderforest'
+    }
+  ).addTo(map);
+
+  L.marker([22.284,114.136]).addTo(map)
+    .bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong')
+    .openPopup();
 </script>
+
 
 
 
