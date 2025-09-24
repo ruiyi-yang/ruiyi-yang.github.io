@@ -90,7 +90,7 @@ Computational Social Science
     scrollWheelZoom: false,
     zoomSnap: 0.5,   // allows half-step zooms (crisper on high-DPI)
     zoomDelta: 0.5
-  }).setView([22.283, 114.137], 15);
+  }).setView([22.283, 114.137], 17);
 
   const tfUrl = L.Browser.retina
     ? 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}@2x.png?apikey=YOUR_KEY'
