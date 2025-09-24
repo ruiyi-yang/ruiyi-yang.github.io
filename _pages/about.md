@@ -99,7 +99,7 @@ Computational Social Science
   L.tileLayer(tfUrl, {
     subdomains: ['a','b','c'],
     maxZoom: 22,
-    maxNativeZoom: 22,   // ensures Leaflet doesn’t upscale lower-zoom tiles
+    maxNativeZoom: 22,   
     attribution: '&copy; OpenStreetMap contributors & Thunderforest'
   }).addTo(map);
 
