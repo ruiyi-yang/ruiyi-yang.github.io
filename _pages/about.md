@@ -86,22 +86,28 @@ Computational Social Science
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"> 
 <div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div> 
 <script>
-  const map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15);
+  const map = L.map('map', {
+    scrollWheelZoom: false,
+    zoomSnap: 0.5,   // allows half-step zooms (crisper on high-DPI)
+    zoomDelta: 0.5
+  }).setView([22.283, 114.137], 15);
 
-  // Thunderforest Neighbourhood (requires API key)
-  L.tileLayer(
-    'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=b60e8d7045594aaa909abffba4cd9453',
-    {
-      subdomains: ['a','b','c'],   // important for Thunderforest CDN
-      maxZoom: 22,
-      attribution: '&copy; OpenStreetMap contributors & Thunderforest'
-    }
-  ).addTo(map);
+  const tfUrl = L.Browser.retina
+    ? 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}@2x.png?apikey=YOUR_KEY'
+    : 'https://{s}.tile.thunderforest.com/neighbourhood/{z}/{x}/{y}.png?apikey=YOUR_KEY';
+
+  L.tileLayer(tfUrl, {
+    subdomains: ['a','b','c'],
+    maxZoom: 22,
+    maxNativeZoom: 22,   // ensures Leaflet doesn’t upscale lower-zoom tiles
+    attribution: '&copy; OpenStreetMap contributors & Thunderforest'
+  }).addTo(map);
 
   L.marker([22.284,114.136]).addTo(map)
     .bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong')
     .openPopup();
 </script>
+
 
 
 
