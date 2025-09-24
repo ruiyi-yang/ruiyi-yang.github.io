@@ -82,35 +82,11 @@ Computational Social Science
  
 <div id="map" class="leaflet-map"></div>
 
-
+{% if page.url == "/about/" %}
 <script>
-  // Coordinates: HKU Main Campus (example). Replace with your own.
-  const LAT = 22.283, LNG = 114.137, ZOOM = 15;
-
-  const map = L.map('map', {
-    scrollWheelZoom: false,     // nicer on pages with lots of text
-    dragging: true
-  }).setView([LAT, LNG], ZOOM);
-
-  // OpenStreetMap tiles
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-
-  // Marker + popup
-  L.marker([LAT, LNG]).addTo(map)
-    .bindPopup('<b>HKU</b><br>Pok Fu Lam, Hong Kong')
-    .openPopup();
-
-  // Optional: enable scroll zoom on user intent only (Ctrl/Cmd + wheel)
-  map.on('wheel', function(e) {
-    if (e.originalEvent.ctrlKey || e.originalEvent.metaKey) {
-      map.scrollWheelZoom.enable();
-      setTimeout(() => map.scrollWheelZoom.disable(), 1000);
-    }
-  });
+  // same JS as above
 </script>
+{% endif %}
 
 
 
