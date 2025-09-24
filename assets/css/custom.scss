@@ -262,7 +262,7 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
   text-decoration: none !important;
 }
 
-/* Optional: give them a subtle circular button look on hover (remove if you want totally invisible) */
+/* give them a subtle circular button look on hover */
 .leaflet-control-zoom a:hover {
   border-radius: 999px;
   background: rgba(0,0,0,.06) !important;
