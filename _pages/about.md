@@ -96,7 +96,10 @@ Computational Social Science
       maxZoom: 20,
       // retina tiles automatically when available
       detectRetina: true,
-      attribution: '&copy; OpenMapTiles &copy; OpenStreetMap contributors'
+      attribution:
+      '© <a href="https://stadiamaps.com/">Stadia Maps</a>, ' +
+      '© <a href="https://openmaptiles.org/">OpenMapTiles</a> ' +
+      '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }
   ).addTo(map);
 
