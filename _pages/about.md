@@ -87,7 +87,7 @@ Computational Social Science
 <div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div> 
 <script>
   const map = L.map('map', { scrollWheelZoom: false })
-               .setView([22.283, 114.137], 17);
+               .setView([22.283, 114.137], 15);
 
   // Stadia OSM Bright   osm_bright
   L.tileLayer(
