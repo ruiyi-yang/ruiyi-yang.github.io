@@ -81,10 +81,16 @@ Computational Social Science
 
 
 ---
- 
-<div id="map" class="leaflet-map"></div>
- 
-
+   
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<div id="map" style="width:100%;height:300px;border-radius:8px;margin:1rem 0;background:#eee;"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  console.log('Leaflet present?', !!window.L);   // should print true
+  const map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19 }).addTo(map);
+  L.marker([22.283,114.137]).addTo(map).bindPopup('HKU').openPopup();
+</script>
 
 
 
