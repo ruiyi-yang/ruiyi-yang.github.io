@@ -89,7 +89,9 @@ Computational Social Science
   const map = L.map('map', { scrollWheelZoom: false })
                .setView([22.283, 114.137], 15);
 
-  // Stadia OSM Bright   osm_bright
+  map.attributionControl.setPrefix('');
+
+  // Stadia OSM Bright: osm_bright; Stadia watercolor: stamen_watercolor
   L.tileLayer(
     'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}{r}.png?api_key=043d3228-23e1-4525-8324-ce817b4f940e',
     {
@@ -106,9 +108,7 @@ Computational Social Science
     .bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong')
     .openPopup();
 </script>
-
-
-
+ 
 
 
 
