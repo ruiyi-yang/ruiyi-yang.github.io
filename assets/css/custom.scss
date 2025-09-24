@@ -207,7 +207,6 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 
 
-
 /* popup card */
 .leaflet-popup-content-wrapper {
   border-radius: 10px;
@@ -268,4 +267,9 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
   border-radius: 999px;
   background: rgba(0,0,0,.06) !important;
 }
+
+
+/* assets/css/custom.scss */
+.leaflet-map { height: 360px; }
+@media (min-width: 900px) { .leaflet-map { height: 560px; } }
 
