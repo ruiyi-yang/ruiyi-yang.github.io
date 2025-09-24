@@ -266,15 +266,4 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 
 
-
-/* make profile photo square */
-.author__avatar img {
-  border-radius: 0 !important;   /* from 50% → 0 */
-}
-
-/* a subtle square style */
-.author__avatar img {
-  /* border-radius: 6px;   
-  /* box-shadow: 0 2px 10px rgba(0,0,0,.08); */
-  /* border: 1px solid rgba(0,0,0,.06); */
-}
+ 
