@@ -206,3 +206,28 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 }
 
 
+
+
+/* popup card */
+.leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+.leaflet-popup-content { font: 500 14px/1.4 'Lato', sans-serif; }
+
+/* zoom buttons */
+.leaflet-control-zoom a {
+  border-radius: 8px !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,.1);
+}
+
+/*  subtle grayscale or tone on tiles */
+#map .leaflet-tile {
+  filter: saturate(0.85) contrast(1.05);
+}
+/* auto grayscale in print */
+@media print {
+  #map .leaflet-tile { filter: grayscale(100%); }
+}
+
+
