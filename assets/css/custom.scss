@@ -230,3 +230,42 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 }
 
 
+
+/* remove grey box behind the zoom control */
+.leaflet-control-zoom.leaflet-bar,
+.leaflet-bar {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* make the + / − buttons clean (no bg, no borders, no underline) */
+.leaflet-control-zoom a {
+  background: transparent !important;
+  border: none !important;         /* remove per-button borders */
+  box-shadow: none !important;
+  text-decoration: none !important;/* kill underline */
+  line-height: 1;                  /* tighter glyph box */
+}
+
+/* remove the separating line between + and − */
+.leaflet-control-zoom a + a {
+  border-top: none !important;
+}
+
+/* keep hover/focus/active states clean */
+.leaflet-control-zoom a:hover,
+.leaflet-control-zoom a:focus,
+.leaflet-control-zoom a:active {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+/* Optional: give them a subtle circular button look on hover (remove if you want totally invisible) */
+.leaflet-control-zoom a:hover {
+  border-radius: 999px;
+  background: rgba(0,0,0,.06) !important;
+}
+
