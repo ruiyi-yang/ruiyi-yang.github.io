@@ -89,9 +89,10 @@ Computational Social Science
   console.log('Leaflet present?', !!window.L);   // should print true
   const map = L.map('map', { scrollWheelZoom:false }).setView([22.283,114.137], 15);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19 }).addTo(map);
-  L.marker([22.283,114.137]).addTo(map).bindPopup('HKU').openPopup();
+  L.marker([22.283,114.137]).addTo(map).bindPopup('<b>The University of Hong Kong</b><br>Pok Fu Lam, Hong Kong').openPopup();
 </script>
 
+---
 
 
 # Projects
