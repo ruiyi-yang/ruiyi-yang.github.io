@@ -89,9 +89,9 @@ Computational Social Science
   const map = L.map('map', { scrollWheelZoom: false })
                .setView([22.283, 114.137], 17);
 
-  // Stadia OSM Bright  
+  // Stadia OSM Bright   osm_bright
   L.tileLayer(
-    'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?api_key=043d3228-23e1-4525-8324-ce817b4f940e',
+    'https://tiles.stadiamaps.com/tiles/watercolor/{z}/{x}/{y}{r}.png?api_key=043d3228-23e1-4525-8324-ce817b4f940e',
     {
       maxZoom: 20,
       // retina tiles automatically when available
