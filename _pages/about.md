@@ -122,14 +122,6 @@ Computational Social Science
   </div>
 </details>
 
- <details class="proj">
-  <summary markdown="span">**Declining Population and Endogenous Growth: Evidence from Developed Economies**</summary>
-  <div markdown="1">
-  This coursework paper develops a framework that integrates Becker’s dynastic fertility theory with the Uzawa–Lucas model of endogenous growth. The framework predicts that diminishing returns to human capital accumulation eventually induce a reallocation of factors toward a more efficient configuration, enabling economies to sustain per-capita output growth even under conditions of demographic decline. To test this mechanism, I employ system GMM estimators on panel data from 43 developed economies over the period 1970–2019, examining the dynamic relationship between human capital accumulation, the estimated rate of increasing returns to education, output growth, and population trends. The empirical results are consistent with the theoretical predictions, suggesting that this endogenous mechanism of human capital accumulation has the potential to mitigate the growth-reducing effects of negative population growth. 
-  </div>
-</details>
-
-
 
 <details class="proj">
   <summary markdown="span">**Building Knowledge Graphs from Classical Chinese Manuscripts with LLMs** <em>(in progress)</em></summary>
