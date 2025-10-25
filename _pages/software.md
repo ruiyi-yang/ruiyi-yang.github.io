@@ -1,10 +1,8 @@
 ---
+layout: default
 permalink: /software/
 title: "Software & Tools"
-layout: single
 author_profile: true
-classes: wide
-nav_order: 3
 ---
 
 # Software & Tools
