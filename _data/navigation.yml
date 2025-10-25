@@ -4,10 +4,10 @@ main:
     url: "/#about-me"
  
   - title: "Projects"
-    url: "/#projects"
+    url: "/projects"
 
   - title: "Software"
-    url: "/#software"
+    url: "/software"
     
   - title: "Gallery"
     url: https://ruiyi-yang.github.io/gallery/
