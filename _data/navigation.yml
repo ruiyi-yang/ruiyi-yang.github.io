@@ -2,12 +2,15 @@
 main:
   - title: "About"
     url: "/"
- 
+    target: _self
+
   - title: "Projects"
-    url: "/projects"
+    url: "/projects/"
+    target: _self
 
   - title: "Software"
-    url: "/software"
+    url: "/software/"
+    target: _self
     
   - title: "Gallery"
     url: https://ruiyi-yang.github.io/gallery/
