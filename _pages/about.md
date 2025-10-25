@@ -49,9 +49,10 @@ Bachelor of Economics, 2021–2025
 <div markdown="1">
  
 ## Research Interests
-Urban Evolution  
 
-Economic Development
+Economic Geography and Development
+
+Spatial Networks and Urban Evolution
 
 Regional Political Economy
 
