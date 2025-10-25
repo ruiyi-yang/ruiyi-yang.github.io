@@ -1,11 +1,11 @@
 ---
+layout: default
 permalink: /projects/
 title: "Projects"
-layout: single
 author_profile: true
-classes: wide
-nav_order: 2
 ---
+
+
 # Projects
 
 <details class="proj">
