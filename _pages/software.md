@@ -13,7 +13,7 @@ Many forecasting errors start with messy inputs. [**timeSeriesQC**](https://gith
 
 [**historical_map_georef**](https://github.com/yryrena/historical_map_georef) is a lightweight pipeline for georeferencing scanned historical maps with printed graticules (longitude/latitude grids). The workflow guides users through interactively selecting ground control points, warping rasters via thin-plate spline transformation, and exporting results as georeferenced GeoTIFFs, static PNGs, or interactive Leaflet maps. 
 
-```mermaid
+<div class="mermaid">
 flowchart LR
     A[Scanned Map Input] --> B[Pick Ground Control Points]
     B --> C[Save GCPs]
@@ -27,6 +27,6 @@ flowchart LR
     style D fill:#aec8ce,stroke:#444,stroke-width:1px
     style E fill:#a4b8ac,stroke:#444,stroke-width:1px
     style F fill:#d6c7c7,stroke:#444,stroke-width:1px
-```
+</div>
 
 [**OCRFlow**](https://github.com/yryrena/OCRFlow) is a toolkit for automating the digitization of scanned documents. It streamlines the full workflow from image cleaning and binarization to intelligent column segmentation and OCR, within a reproducible pipeline. The toolkit supports both batch and single-image processing, integrating deep learning–based OCR models with classic computer vision preprocessing. The result is a flexible system that converts complex multi-column scans into structured, machine-readable text, ready for search, analysis, or archiving.
