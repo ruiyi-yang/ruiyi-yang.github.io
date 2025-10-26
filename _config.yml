@@ -4,6 +4,10 @@ description              : "Research Postgraduate Student at HKU Social Sciences
 repository               : "ruiyi-yang/ruiyi-yang.github.io"
 google_scholar_stats_use_cdn : true
 
+url: "https://ruiyi-yang.github.io"
+baseurl: ""
+
+
 ## google analytics
 google_analytics_id      :   
 
