@@ -11,7 +11,7 @@ author_profile: true
 <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:2rem;">
   <div style="flex:1; min-width:250px; padding-right:1rem;">
     <p>
-      <a href="https://github.com/yryrena/causalSenseCheck"><strong>causalSenseCheck</strong></a> is an R package that provides a toolkit for researchers interested in evaluating the credibility of causal claims. It integrates a variety of diagnostic approaches, including placebo checks, robustness analyses, sensitivity methods, and multiple estimators, within a single, coherent workflow. The package is designed to make rigorous causal inference diagnostics more accessible. With clear syntax, intuitive visualizations, and automated reporting features, the package helps researchers stress-test their results, identify potential weaknesses, and present findings in a transparent and reproducible way.
+      <a href="https://github.com/yryrena/causalSenseCheck.png"><strong>causalSenseCheck</strong></a> is an R package that provides a toolkit for researchers interested in evaluating the credibility of causal claims. It integrates a variety of diagnostic approaches, including placebo checks, robustness analyses, sensitivity methods, and multiple estimators, within a single, coherent workflow. The package is designed to make rigorous causal inference diagnostics more accessible. With clear syntax, intuitive visualizations, and automated reporting features, the package helps researchers stress-test their results, identify potential weaknesses, and present findings in a transparent and reproducible way.
     </p>
   </div>
   <div style="flex:0 0 140px; text-align:right;">
@@ -39,7 +39,7 @@ author_profile: true
 <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:2rem;">
   <div style="flex:1; min-width:250px; padding-right:1rem;">
     <p>
-      <a href="https://github.com/yryrena/historical_map_georef"><strong>historical_map_georef</strong></a> is a lightweight pipeline for georeferencing scanned historical maps with printed graticules (longitude/latitude grids). The workflow guides users through interactively selecting ground control points, warping rasters via thin-plate spline transformation, and exporting results as georeferenced GeoTIFFs, static PNGs, or interactive Leaflet maps. 
+      <a href="https://github.com/yryrena/historical_map_georef.png"><strong>historical_map_georef</strong></a> is a lightweight pipeline for georeferencing scanned historical maps with printed graticules (longitude/latitude grids). The workflow guides users through interactively selecting ground control points, warping rasters via thin-plate spline transformation, and exporting results as georeferenced GeoTIFFs, static PNGs, or interactive Leaflet maps. 
     </p>
   </div>
   <div style="flex:0 0 140px; text-align:right;">
