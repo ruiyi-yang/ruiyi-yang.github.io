@@ -12,5 +12,21 @@ author_profile: true
 Many forecasting errors start with messy inputs. [**timeSeriesQC**](https://github.com/yryrena/timeSeriesQC) tackles that directly: given panel/long time series, it detects irregularities (duplicates, gaps, outliers), highlights seasonal artifacts and breakpoints, and, when requested, applies reproducible fixes. Each operation is logged, and a lightweight HTML report captures what changed and why. The package is intentionally narrow in scope: prepare reliable time-series inputs, then hand off to your modeling stack.
 
 [**historical_map_georef**](https://github.com/yryrena/historical_map_georef) is a lightweight pipeline for georeferencing scanned historical maps with printed graticules (longitude/latitude grids). The workflow guides users through interactively selecting ground control points, warping rasters via thin-plate spline transformation, and exporting results as georeferenced GeoTIFFs, static PNGs, or interactive Leaflet maps. 
- 
+
+```mermaid
+flowchart LR
+    A[Scanned Map Input] --> B[Pick Ground Control Points]
+    B --> C[Save GCPs]
+    C --> D[Warp Raster with Thin Plate Spline]
+    D --> E[GeoTIFF & Visualization Exports]
+    E --> F[Optional Extract Blue Contours GeoJSON]
+
+    style A fill:#f6e0b5,stroke:#444,stroke-width:1px
+    style B fill:#eea990,stroke:#444,stroke-width:1px
+    style C fill:#cebfb6,stroke:#444,stroke-width:1px
+    style D fill:#aec8ce,stroke:#444,stroke-width:1px
+    style E fill:#a4b8ac,stroke:#444,stroke-width:1px
+    style F fill:#d6c7c7,stroke:#444,stroke-width:1px
+```
+
 [**OCRFlow**](https://github.com/yryrena/OCRFlow) is a toolkit for automating the digitization of scanned documents. It streamlines the full workflow from image cleaning and binarization to intelligent column segmentation and OCR, within a reproducible pipeline. The toolkit supports both batch and single-image processing, integrating deep learning–based OCR models with classic computer vision preprocessing. The result is a flexible system that converts complex multi-column scans into structured, machine-readable text, ready for search, analysis, or archiving.
