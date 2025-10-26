@@ -5,16 +5,7 @@ title: "Software & Tools"
 author_profile: true
 ---
 
-# Software & Tools 
-
----
-layout: default
-permalink: /software/
-title: "Software & Tools"
-author_profile: true
----
-
-# Software & Tools
+# Software & Tools  
 
 <!-- causalSenseCheck -->
 <section style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:2rem;">
@@ -81,3 +72,4 @@ author_profile: true
          style="width:130px; max-width:130px; height:auto; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.15);" />
   </div>
 </section>
+
