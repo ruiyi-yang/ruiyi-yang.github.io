@@ -235,4 +235,42 @@
   });
 </script>
 
+
+
+<style>
+.software-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.software-item .software-text {
+  flex: 1;
+  min-width: 250px;
+  padding-right: 1rem;
+}
+
+.software-item .software-logo {
+  flex: 0 0 140px;
+  text-align: right;
+}
+
+/* mobile tweak: stack logo under text */
+@media screen and (max-width: 600px) {
+  .software-item {
+    flex-direction: column;
+    text-align: left;
+  }
+  .software-item .software-logo {
+    text-align: left;
+    margin-top: 1rem;
+  }
+  .software-item .software-logo img {
+    width: 110px;
+  }
+}
+</style>
+
   
