@@ -271,9 +271,21 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 
 
+
+.author__avatar img {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .author__avatar img:hover {
   transform: scale(1.04);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
+
+ 
 
  
