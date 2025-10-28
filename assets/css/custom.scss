@@ -268,21 +268,19 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 
 
+
+
 .author__avatar img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 210px;
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #ddd;
+  transition: all 0.3s ease;
 }
 
 .author__avatar img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  border-color: #888;
+  transform: scale(1.04);
 }
-
-
-
 
  
