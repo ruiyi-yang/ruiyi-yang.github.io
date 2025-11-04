@@ -16,9 +16,8 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span> 
- 
 
-I am a PhD student in the Faculty of Social Sciences at The University of Hong Kong. I earned a Bachelor’s degree in Economics from HKU’s Faculty of Business and Economics. My research interests lie at the intersection of **spatial economics** and **development studies**. 
+I earned a Bachelor’s degree in Economics (First Class Honours) from HKU’s Faculty of Business and Economics. My research interests lie at the intersection of **spatial economics** and **development studies**. 
 
 
 My first name is pronounced rway-ee.
