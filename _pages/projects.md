@@ -5,30 +5,38 @@ title: "Projects"
 author_profile: true
 ---
 
-
-# Projects
-
+<h1>Projects</h1>
 
 <details class="proj">
-  <summary markdown="span">**Governance Fragmentation and the Tragedy of the Commons: A Spatial Econometric Analysis of Groundwater Extraction in the U.S.**</summary>
-  <div markdown="1"> 
-    This paper investigates how governance fragmentation affects groundwater extraction in the United States, drawing on the broader literature on the "tragedy of the commons” and institutional design. The study develops a game-theoretic framework that models how neighboring jurisdictions compete or cooperate in shared resource extraction. Simulation results demonstrate that when governance is more evenly fragmented, competition intensifies, leading to higher extraction and resource depletion; conversely, highly asymmetric governance arrangements reduce over-extraction. The model also highlights the importance of intertemporal preferences in shaping extraction outcomes. From this theoretical basis, two testable hypotheses are proposed: (i) higher fragmentation increases groundwater withdrawal, and (ii) extraction decisions are spatially interdependent across districts. Empirically, the paper applies spatial econometric techniques to U.S. groundwater data. Using constructed proxies for governance fragmentation and extensive controls for geological, demographic, and land-use factors, the analysis reveals a complex picture: fragmentation heightens perceived scarcity but is associated with lower actual extraction. Strong spatial dependence is observed, confirming that districts’ decisions are influenced by their neighbors. Robustness checks, including PSM and alternative spatial weighting schemes, reinforce the main findings. 
+  <summary>
+    <strong>Governance Fragmentation and the Tragedy of the Commons: A Spatial Econometric Analysis of Groundwater Extraction in the U.S.</strong>
+  </summary>
+  <div>
+    <p>
+       This paper investigates how governance fragmentation affects groundwater extraction in the United States, drawing on the broader literature on the "tragedy of the commons” and institutional design. The study develops a game-theoretic framework that models how neighboring jurisdictions compete or cooperate in shared resource extraction. Simulation results demonstrate that when governance is more evenly fragmented, competition intensifies, leading to higher extraction and resource depletion; conversely, highly asymmetric governance arrangements reduce over-extraction. The model also highlights the importance of intertemporal preferences in shaping extraction outcomes. From this theoretical basis, two testable hypotheses are proposed: (i) higher fragmentation increases groundwater withdrawal, and (ii) extraction decisions are spatially interdependent across districts. Empirically, the paper applies spatial econometric techniques to U.S. groundwater data. Using constructed proxies for governance fragmentation and extensive controls for geological, demographic, and land-use factors, the analysis reveals a complex picture: fragmentation heightens perceived scarcity but is associated with lower actual extraction. Strong spatial dependence is observed, confirming that districts’ decisions are influenced by their neighbors. Robustness checks, including PSM and alternative spatial weighting schemes, reinforce the main findings. 
+    </p>
 
-     This paper was submitted as an undergraduate capstone project. 
-      
-
+    <p><span class="muted-note"><em>This paper was submitted as an undergraduate capstone project.</em></span></p>
   </div>
 </details>
 
 
-<details class="proj">
-  <summary markdown="span">**Building Knowledge Graphs from Classical Chinese Manuscripts with LLMs** <em>(in progress)</em></summary>
-  <div markdown="1">
-  This project develops a framework for digitizing and extracting structured knowledge from historical Chinese texts written in *wenyan* (Classical Chinese). It seeks to integrate digitization, character normalization, and punctuation restoration with fine-tuned large language models to achieve accurate interpretation of unpunctuated, context-dependent passages. The models are being trained to handle tasks including named entity recognition, event extraction, and relational mapping, with the goal of transforming raw manuscripts into structured knowledge graphs that capture the people, places, events, and institutions recorded in the texts. Ultimately, the project aims to enable semantic querying of complex historical records and to provide historians with a powerful tool for detecting patterns, validating interpretations, and linking disparate archival sources within a unified digital knowledge base.
-  </div>
-</details>
- 
   
+ 
+
+
+
+<details class="proj">
+  <summary>
+    <strong>Building Knowledge Graphs from Classical Chinese Manuscripts with LLMs</strong> <em>(in progress)</em>
+  </summary>
+  <div>
+    <p>
+      This project develops a framework for digitizing and extracting structured knowledge from historical Chinese texts written in *wenyan* (Classical Chinese). It seeks to integrate digitization, character normalization, and punctuation restoration with fine-tuned large language models to achieve accurate interpretation of unpunctuated, context-dependent passages. The models are being trained to handle tasks including named entity recognition, event extraction, and relational mapping, with the goal of transforming raw manuscripts into structured knowledge graphs that capture the people, places, events, and institutions recorded in the texts. Ultimately, the project aims to enable semantic querying of complex historical records and to provide historians with a powerful tool for detecting patterns, validating interpretations, and linking disparate archival sources within a unified digital knowledge base.
+    </p>
+  </div>
+</details>
+
 <style>
 .proj { margin:.5rem 0 1rem; }
 
@@ -42,14 +50,16 @@ author_profile: true
 }
 
 /* hide native markers */
-.proj > summary::marker { content:""; }                  /* Firefox */
+.proj > summary::marker { content:""; }                   /* Firefox */
 .proj > summary::-webkit-details-marker { display:none; } /* Chrome/Safari */
 
 /* plus/minus at the FRONT */
 .proj > summary::before { content:"+"; color:#666; font-weight:bold; }
-details[open] > summary::before { content:"−"; } /* note: real minus sign, not hyphen */
+details[open] > summary::before { content:"−"; } /* real minus sign */
 
 /* if your theme injects anchor icons into summary, hide them */
 .proj summary .anchorjs-link { display:none !important; }
-</style>
 
+/* light gray note for the capstone sentence */
+.muted-note { color:#d5d4d4; }
+</style>
