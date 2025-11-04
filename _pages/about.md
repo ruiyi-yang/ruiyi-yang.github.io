@@ -18,6 +18,8 @@ redirect_from:
 <span class='anchor' id='about-me'></span> 
  
 
+I am a PhD student in the Faculty of Social Sciences at The University of Hong Kong. I earned a Bachelor’s degree in Economics from HKU’s Faculty of Business and Economics. My research interests lie at the intersection of **spatial economics** and **development studies**. 
+
 
 My first name is pronounced rway-ee.
  
@@ -52,11 +54,10 @@ Bachelor of Economics, 2021–2025
 
 Economic Geography and Development
 
-Spatial Networks and Urban Evolution
+Spatial Networks and Urban Economics
 
 Regional Political Economy
-
-Computational Social Science
+ 
 
 </div>
 </div>
