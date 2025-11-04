@@ -22,13 +22,6 @@ I earned a Bachelor’s degree in Economics (First Class Honours) from HKU’s F
 
 My first name is pronounced rway-ee.
  
- {: #contact } 
-<script type="text/javascript">
-  var user = "ruiyi";
-  var domain = "connect.hku.hk";
-  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
-</script>
-
 
 
 
@@ -57,6 +50,18 @@ Spatial Networks and Urban Economics
 
 Regional Political Economy
  
+
+
+ {: #contact } 
+<script type="text/javascript">
+  var user = "ruiyi";
+  var domain = "connect.hku.hk";
+  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
+</script>
+
+
+
+
 
 </div>
 </div>
