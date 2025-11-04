@@ -64,7 +64,7 @@ Regional Political Economy
   gap:2rem;
   align-items:flex-start;
   flex-wrap:wrap;      
-  margin-top:2.5rem;
+  margin-top:1.5rem;
 }
 .two-col > div{
   flex:1 1 320px;   
@@ -80,6 +80,7 @@ Regional Political Economy
 
 
  {: #contact } 
+<div class="vspace-md"></div>
 <script type="text/javascript">
   var user = "ruiyi";
   var domain = "connect.hku.hk";
