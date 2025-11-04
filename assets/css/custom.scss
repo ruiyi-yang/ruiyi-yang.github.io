@@ -286,6 +286,17 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
 
+
+
+.lead { font-size:1.05rem; color:#444; margin-bottom:1rem; }
+.software-item { display:flex; gap:1rem; align-items:flex-start; }
+.software-text { flex:1; min-width:0; }
+.software-logo img { display:block; }
+@media (max-width:720px){
+  .software-item { flex-direction:column; }
+}
+
+
  
 
  
