@@ -50,18 +50,7 @@ Spatial Networks and Urban Economics
 
 Regional Political Economy
  
-
-
- {: #contact } 
-<script type="text/javascript">
-  var user = "ruiyi";
-  var domain = "connect.hku.hk";
-  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
-</script>
-
-
-
-
+ 
 
 </div>
 </div>
@@ -83,6 +72,16 @@ Regional Political Economy
 }
 </style>
 
+
+
+
+
+ {: #contact } 
+<script type="text/javascript">
+  var user = "ruiyi";
+  var domain = "connect.hku.hk";
+  document.write('Please contact me at <a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>.');
+</script>
 
 
   
