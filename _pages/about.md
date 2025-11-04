@@ -64,7 +64,7 @@ Regional Political Economy
   gap:2rem;
   align-items:flex-start;
   flex-wrap:wrap;      
-  margin-top:1.5rem;
+  margin-top:1rem;
 }
 .two-col > div{
   flex:1 1 320px;   
