@@ -49,11 +49,14 @@ Economic Geography and Development
 Spatial Networks and Urban Economics
 
 Regional Political Economy
- 
- 
 
 </div>
 </div>
+
+
+
+
+
  
 <style>
 .two-col{
@@ -61,7 +64,7 @@ Regional Political Economy
   gap:2rem;
   align-items:flex-start;
   flex-wrap:wrap;      
-  margin-top:1rem;
+  margin-top:2.5rem;
 }
 .two-col > div{
   flex:1 1 320px;   
