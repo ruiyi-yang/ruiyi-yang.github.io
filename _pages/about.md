@@ -44,11 +44,11 @@ Bachelor of Economics, 2021–2025
  
 ## Research Interests
 
-Economic Geography and Development
+Economic Geography
 
-Spatial Networks and Urban Economics
+Urban Economics
 
-Regional Political Economy
+Networks and Spatial Interaction
 
 </div>
 </div>
