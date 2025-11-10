@@ -46,7 +46,7 @@ Bachelor of Economics, 2021–2025
 
 Economic Geography
 
-Quantitative Regional and Urban Economics
+Regional and Urban Economics
 
 Networks and Spatial Interaction
 
