@@ -19,12 +19,7 @@ author_profile: true
     <p><span class="muted-note"><em>This paper was submitted as an undergraduate capstone project.</em></span></p>
   </div>
 </details>
-
-
-  
  
-
-
 
 <details class="proj">
   <summary>
@@ -40,8 +35,15 @@ author_profile: true
 <style>
 .proj { margin:.5rem 0 1rem; }
 
+/* 项目图片样式：自适应宽度且不可点击 */
+.proj-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: .75rem 0 1rem;
+  pointer-events: none;  /* 禁止点击/拖动 */
+}
 
-  
 .proj > summary {
   cursor:pointer;
   font-weight:600;
@@ -65,6 +67,3 @@ details[open] > summary::before { content:"−"; } /* real minus sign */
 /* light gray note for the capstone sentence */
 .muted-note { color:#d5d4d4; }
 </style>
-
-
-
