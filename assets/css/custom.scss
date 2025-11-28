@@ -300,6 +300,48 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 
 .vspace-md { margin-top: 2rem; } 
 
+
+
+
+
+/* ===== nav bar hover: underline -> pill box ===== */
  
+.greedy-nav .visible-links a::before,
+.greedy-nav .hidden-links a::before,
+.masthead__menu-item a::before {
+  display: none !important;
+}
+ 
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead__menu-item a {
+  display: inline-block;                    
+  padding: 0.35rem 1.1rem;                 
+  border-radius: 999px;                      
+  transition: background-color 0.2s ease,
+              box-shadow 0.2s ease,
+              color 0.2s ease;
+}
+ 
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus,
+.greedy-nav .hidden-links a:hover,
+.greedy-nav .hidden-links a:focus,
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  background-color: #f9f5ec;               
+  color: #222222 !important;              
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+ 
+.greedy-nav .visible-links a[aria-current="page"],
+.greedy-nav .visible-links a.current,
+.masthead__menu-item a[aria-current="page"],
+.masthead__menu-item a.current {
+  background-color: #f9f5ec;
+  color: #222222 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+
 
  
