@@ -329,7 +329,7 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 .greedy-nav .hidden-links a:focus,
 .masthead__menu-item a:hover,
 .masthead__menu-item a:focus {
-  background-color: #f9f5ec;               
+  background-color: #7696b5;               
   color: #222222 !important;              
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
 }
@@ -338,7 +338,7 @@ details[open] > summary::before { content: "−"; }     /* true minus, not hyphe
 .greedy-nav .visible-links a.current,
 .masthead__menu-item a[aria-current="page"],
 .masthead__menu-item a.current {
-  background-color: #f9f5ec;
+  background-color: #7696b5;
   color: #222222 !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
 }
