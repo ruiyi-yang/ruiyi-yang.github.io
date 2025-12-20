@@ -114,11 +114,11 @@ article.page {
 
 /* sidebar column: fixed width; sits on the right because it renders second */
 .sidebar.sticky {
-  flex: 0 0 210px;             /* <-- set sidebar width here */
+  flex: 0 0 210px;             /* <-- set sidebar width */
   max-width: 300;
 }
 
-/* tweak inner spacing of the sidebar if you like */
+/* tweak inner spacing of the sidebar */
 .sidebar.sticky {
   padding-top: 0.5rem;
 }
