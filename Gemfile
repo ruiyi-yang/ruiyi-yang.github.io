@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ## manage the Jekyll version via GitHub Pages
 gem "github-pages", group: :jekyll_plugins
 
-## use Jekyll directly (uncomment if not using GitHub Pages)
+## use Jekyll directly 
 # gem "jekyll"
 
 ## Windows only: file system watcher
